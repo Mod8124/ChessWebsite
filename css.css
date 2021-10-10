@@ -229,7 +229,7 @@
     width:90%;
     margin:0 auto;
     display: flex;
-    flex-wrap: wrap;
+    overflow: hidden;
     flex-direction: row;
     align-items: center;
 }
@@ -304,10 +304,9 @@
 
 #navSecond {
     height:100% ;
-    width:100%;
+    width:90%;
     margin:0 auto;
     display: flex;
-    flex-wrap: wrap;
     flex-direction: row;
     align-items: center;
 }
@@ -336,7 +335,7 @@
     text-align: center;
     color:white;
     font-weight: bold;
-    font-size:1.8em ;
+    font-size:1.7em ;
 }
 
 #navServices a:hover {
@@ -387,12 +386,18 @@
 }
 
 #cta button {
-    border:none;
     background-color:#bd0052 ;
     padding:10px 25px 10px 25px;
     font-size: 2em;
     color:white;
     font-weight: bolder;
+    cursor: pointer;
+    border: 2px solid #bd0052;
+}
+
+#cta button:hover {
+  border: 2px solid white;
+  background-color: #bd0052c4;
 }
 
 .red {
@@ -412,6 +417,7 @@
 #red svg {
     width:70px;
     height: 70px;
+    cursor: pointer;
 }
 
 #face svg:hover{
@@ -436,13 +442,11 @@
 
 .title {
     flex:100%;
-    height:80px ;
 }
 
 #title {
     display: flex;
     width:95%;
-    flex-wrap: wrap;
     flex-direction: row;
     margin:0 auto;
     align-items: center;
@@ -479,7 +483,7 @@
 
 .img_first {
     flex:100%;
-    height: 600px;
+    padding-bottom: 60px;
 }
 
 #img__first {
@@ -501,7 +505,7 @@
 }
 
 .explanation p {
-    padding-top: 50px;
+    padding-top: 40px;
     font-size: 2em;
     padding-bottom:40px ;
 }
@@ -514,7 +518,6 @@
     background-image: url("img/back3.jpg");
     background-position: center center;
     background-size: cover;
-    height:1100px ;
     width:100%;
     display: flex;
     flex-wrap: wrap;
@@ -523,12 +526,11 @@
 
 .titleTwo {
     flex:100%;
-    height:20% ;
+    padding-top: 80px;
+    padding-bottom: 60px;
 }
 
 #titleTwo {
-    padding-top:60px ;
-    height:90% ;
     width:80%;
     display: flex;
     text-align: center;
@@ -541,9 +543,9 @@
 }
 
 #hrSeventh hr {
-    width:30%;
+    width:28%;
     margin-left:70% ;  
-    border:4px solid #bd0052;
+    border:3px solid #bd0052;
 }
 
 #tittleTwo {
@@ -560,8 +562,8 @@
 }
 
 #hrEight hr {
-    width:30%;
-    border:4px solid #bd0052;
+    width:28%;
+    border:3px solid #bd0052;
     margin-right:70%;
 }
 
@@ -571,10 +573,10 @@
 }
 
 .material {
-    width:80%;
-    height:90% ;
+    width:90%;
     margin:0 auto;  
     text-align: center; 
+    padding-bottom: 40px;
 }
 
 .material h2 {
@@ -595,12 +597,18 @@
 }
 
 .material button {
-    border:none;
     background-color:#bd0052 ;
     padding:10px 25px 10px 25px;
     font-size: 2em;
     color:white;
     font-weight: bolder;
+    cursor: pointer;
+    border: 2px solid #bd0052;
+}
+
+.material button:hover {
+    border: 2px solid white;
+     background-color: #bd0052c4;
 }
 
 .material_img {
@@ -622,8 +630,7 @@
 
 #titleThree {
     display: flex;
-    flex-wrap: wrap;
-    width:90%;
+    width:95%;
     margin:0 auto;
     text-align: center;
     align-items: center;
@@ -636,15 +643,16 @@
 #hrNineth hr {
     width:60%;
     border:4px solid #bd0052;
-    margin-left:40%;
+    margin-left:35%;
 }
 
 #tittleThree {
     flex: 32%;
+    text-align: center;
 }
 
 #tittleThree h2 {
-    font-size:2.8em ;
+    font-size:2.6em ;
     text-transform: uppercase;
 }
 
@@ -656,7 +664,7 @@
 #hrTenth hr {
     width:60%;
     border:4px solid #bd0052;
-    margin-right:40%;
+    margin-right:45%;
 }
 
 .infoTwo {
@@ -694,13 +702,21 @@
 }
 
 .advan button {
-    border:none;
+    border:3px solid #bd0052;
     background-color:#bd0052 ;
     padding:10px 30px 10px 30px;
     font-size: 1.6em;
     color:white;
     font-weight: bolder;
+    cursor: pointer;
 }
+
+.advan button:hover {
+    border: 3px solid #bd0052;
+    background-color: #fff;
+    color:#bd0052;
+}
+
 
 /*-------inicia backForth-----------*/
 
@@ -708,7 +724,6 @@
     margin-top: 100px;
     width:100%;
     display: flex;
-    height:1100px;
     flex-wrap: wrap;
     background-image: url("img/back2.jpg");
     background-position: center center;
@@ -719,11 +734,11 @@
 
 .titleForth {
     flex:100%;
-    height:160px ;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
 #titleForth {
-    padding-top: 5%;
     display: flex;
     width:80%;
     margin:0 auto;
@@ -746,7 +761,7 @@
 }
 
 #tittleForth h2 {
-    font-size:2.8em ; 
+    font-size:2.6em ; 
     color:#fff;
 }
 
@@ -761,7 +776,6 @@
 }
 
 .paragraph {
-    margin-top: -50px;
     flex:100%;
 }
 
@@ -779,28 +793,28 @@
 }
 
 .paragra p {
-    width:60%;
+    width:70%;
     margin:0 auto;
-    font-size: 2.8em;
+    font-size: 2.5em;
+    padding-bottom:30px;
     color:#fff;
 }
 
 .personTestimonial {
     flex:100%;
-    margin-top:-50px ;
+    padding-bottom: 50px;
 }
 
 .person_testimonial {
-    width:28%;
+    width:30%;
     display: flex;
-    flex-wrap: wrap;
     margin:0 auto;
     justify-content: space-evenly;
     text-align: center;
 }
 
 .person {
-    width:170px;
+    width:180px;
 }
 
 .person Svg {
@@ -812,7 +826,7 @@
 }
 
 .people {
-    font-size: 1.5em;
+    font-size: 1.2em;
     color:#fff;
     display: none;
 }
@@ -909,15 +923,22 @@ textarea {
 }
 
 input[type=submit] {
-    border:none;
+    border: 4px solid #bd0052;
     background-color:#bd0052 ;
     padding:10px 30px 10px 30px;
     font-size: 2em;
     color:white;
     font-weight: bolder;
     margin-left:41%;
+    transition: all 0.5s;
+    cursor: pointer;
 }
 
+input[type=submit]:hover {
+    background-color: #fff;
+    color:#bd0052;
+    border: 4px solid #bd0052;
+}
 
 /*-----inicia footer-----*/
 
@@ -957,8 +978,15 @@ footer {
 #comunity h3 {
     padding-top:100px;
     font-size: 1.8em;
-    padding-bottom: 15px;
-    color:#fff;
+    padding-bottom: 20px;
+    color:#bd0052;
+    cursor: pointer;
+    transition: 0.6s ease-in-out;
+    text-transform: uppercase;
+}
+
+#comunity h4:hover {
+    color:#bd0052
 }
 
 #comunity h4 {
@@ -966,6 +994,8 @@ footer {
     padding-bottom: 35px;
     color:#fff;
     font-weight: bold;
+    cursor: pointer;
+    transition: 0.6s ease-in-out;
 }
 
 .references {
@@ -981,7 +1011,10 @@ footer {
     padding-top:100px;
     font-size: 1.8em;
     padding-bottom: 15px;
-    color:#fff;
+    color:#bd0052;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: 0.6s ease-in-out;
 }
 
 #references h4 {
@@ -989,6 +1022,12 @@ footer {
     padding-bottom: 35px;
     color:#fff;
     font-weight: bold;
+    cursor: pointer;
+    transition: 0.6s ease-in-out;
+}
+
+#references h4:hover {
+    color:#bd0052;
 }
 
 .redSocial {
@@ -1031,143 +1070,104 @@ footer {
 
 @media only screen and (min-width: 1500px) and (max-width:1640px) {
 
-    .navBar {
-       padding-top: 0px;
-    }
-
-    .navFirst {
-        flex:40%;
-    }
-    
-    #navFirst {
-        overflow: hidden;
-    }
-
     .logo {
         flex:10%;
     }
     
     .navSecond {
         flex:40%;
-    }
-
-    #navSecond {
-        overflow: hidden;
-        width:100%;
     }
 
     #hrThird {
         flex:24% ;
     }
 
-    #hrThird hr {
-        width:80%;
-        margin-right: 20%;
-        border: 2px solid white;
+
+    #red svg {
+        width: 60px;
+        height: 60px;
     }
 
-    #navServices {
-        flex: 26%;
+    /*backTow inicio */
+
+    #tittleTwo h2 {
+        font-size: 2.4em;
     }
 
-    #hrForth {
-        flex:50% ; 
+    .material h2 {
+        font-size: 2.4em;
     }
 
+    .material p {
+        width: 90%;
+        font-size: 2em;
+    }
+
+    .material button {
+        font-size: 1.8em;
+    }
     /*testimoni inicio*/
 
-    .paragraph {
-        margin-top: 20px;
+    .paragra p {
+        font-size: 2em;
     }
-
-    .personTestimonial {
-        flex:100%;
-        margin-top:-20px ;
-    }
-
-    .person_testimonial {
-        width:35%;
-    }
-    
 }
 
 @media only screen and (min-width: 1400px) and (max-width:1499px) {
 
-    /*-----inicia back------------*/
-
-    .navBar {
-       padding-top: 0px;
-    }
-
-    .navFirst {
-        flex:40%;
-    }
-    
-    #navFirst {
-        overflow: hidden;
-        width: 100%;
-    }
-
     .logo {
         flex:10%;
+    }
+
+    #navAbout a {
+        font-size: 1.4em;
     }
     
     .navSecond {
         flex:40%;
     }
 
-    #navSecond {
-        overflow: hidden;
-        width:100%;
+    #navServices a {
+        font-size: 1.4em;
     }
 
     #hrThird {
-        flex:22% ;
+        flex:24% ;
     }
 
-    #hrThird hr {
-        width:85%;
-        margin-right: 15%;
-        border: 2px solid white;
+    #cta button {
+        font-size: 1.8em;
     }
 
-    #navServices {
-        flex: 28%;
+    #red svg {
+        width: 60px;
+        height: 60px;
     }
 
-    #hrForth {
-        flex:50% ; 
+    /*backTow inicio */
+
+    #tittleTwo h2 {
+        font-size: 2.4em;
     }
 
-    /*----------inicia backTwo -----------------*/
-
-    .info {
-        margin-top:-20px ;
+    .material h2 {
+        font-size: 2.4em;
     }
-    
+
     .material p {
-        width:90%;
+        width: 90%;
+        font-size: 2em;
     }
 
+    .material button {
+        font-size: 1.8em;
+    }
+    /*testimoni inicio*/
 
-    /*------------inicia backForth---------*/
-    
-    .paragraph {
-        margin-top: 20px;
+    .paragra p {
+        font-size: 2em;
     }
 
-    .paragra {
-        width:70%;
-    }
-
-    .personTestimonial {
-        flex:100%;
-        margin-top:0px ;
-    }
-
-    .person_testimonial {
-        width:40%;
-    }
 }
 
 @media only screen and (min-width: 1300px) and (max-width:1399px) {
