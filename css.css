@@ -1,0 +1,4599 @@
+* {
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.wrapper {
+    width:100%;
+    height: 100%;
+}
+
+.navHidden {
+     flex:100%;
+     height: 10%;
+     background-color: transparent;
+     display: none;
+     flex-wrap: wrap;
+}
+
+.logoHidden {
+    flex:20%;
+}
+
+#logoHidden {
+    padding-left:30px ;
+    padding-top:30px ;
+    width:100px;
+    margin:0 auto;
+}
+
+#logoHidden img {
+    margin:0 auto;
+    width: 50%;
+}
+
+.navHambu {
+    flex:80%;
+}
+
+/*-navbar mobile*/
+
+.device {
+	position: relative;
+	width: 360px;
+	height: 320px;
+    display: block;
+}
+
+.container {
+	position: absolute;
+	top:-20px; right: -170px;
+	bottom: 0; left: 0px;
+	overflow: hidden;
+}
+
+/*style nav*/
+
+.main-nav {
+    position: absolute;
+    top: 50px;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+    background: #fff;
+    opacity: 0;
+    z-index: -1;
+    visibility: hidden;
+    transition: all .375s;
+}
+
+.main-nav.is-open {
+    opacity: 1;
+    z-index: 2;
+    visibility: visible;
+}
+
+
+.main-nav::before {
+	content: '';
+    position: absolute;
+    top: -50px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #000;
+    transform-origin: 0 0;
+    transition: all .275s .1s;
+   
+}
+/* nav ul style*/
+.main-nav ul {
+    display: inline-flex;
+    flex-direction: column;
+    height: 93%; 
+    justify-content: center;
+    margin-top:0px ;
+    
+}
+
+.main-nav li {
+    display: block;
+    margin: .5rem 0;
+    text-align: left;
+  
+}
+
+
+.main-nav a {
+    opacity: 0;
+    color:#fff;
+    transform: translateY(-10px);
+}
+
+.main-nav.is-open a {
+    opacity: 1;
+    color:#fff;
+    transform: translateY(50px);
+    transform:translateX(-50px);
+}
+
+.main-nav ul, .main-nav li {
+	list-style: none;
+	padding: 0;
+}
+.main-nav a {
+	display: block;
+	padding: 12px ;
+	color:#000;
+	font-size: 1.6em;
+	text-decoration: none;
+	font-weight: bolder;
+}
+
+.main-nav a:hover{
+    color:#00abbb;
+}
+
+.open-main-nav {
+	position: absolute;
+	top: 15px;
+	padding-top: 20px;
+	right: 15px;
+	z-index: 3;
+	background: none;
+	border: 0;
+	cursor: pointer;
+}
+.open-main-nav:focus {
+	outline: none;
+}
+/*simbolo nav */
+.burger {
+	position: relative;
+    display: block;
+    right:20px;
+    top:50px;
+	width: 30px;
+	height: 4px;
+	margin: 0 auto;
+	background:#fff;
+	transition: all .275s;
+}
+
+.burger:after,
+.burger:before {
+	content: '';
+	display: block;
+	height: 100%;
+	background: #fff;
+	transition: all .275s;
+}
+
+.burger:after {
+	transform: translateY(-12px)  ;
+}
+
+.burger:before {
+	transform: translateY(-16px) ;
+}
+
+.is-open .burger {
+	transform: skew(5deg) translateY(-8px) rotate(-45deg) ; background-color:#bd0052;
+}
+
+.is-open .burger:before {
+	transform: translateY(0px) skew(-10deg) rotate(75deg); background-color:#bd0052;
+}
+
+.is-open .burger:after {
+	transform: translateY(-12px) translateX(10px) skew(-20deg);
+    opacity: 0;
+}
+/*termina burger menu*/
+
+.back {
+    background-image: url("img/back1.jpg") ;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 1100px;
+    width:100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:row;
+    box-shadow: 0px 10px 20px black;
+    margin-bottom: 150px;
+    overflow: hidden;
+    
+}
+
+.navBar {
+    padding-top:10px ;
+    flex:100% ;
+    height:120px ;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;  
+}
+
+
+.navFirst {
+    flex:47%;
+    overflow: hidden;
+}
+
+#navFirst {
+    height:100% ;
+    width:90%;
+    margin:0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+}
+
+/*hijos de navFirst*/
+
+#hrFirst {
+    flex:50% ;
+}
+
+#hrFirst hr {
+    width:70%;
+    margin:0 auto;
+    border: 2px solid white;
+}
+
+#navAbout {
+    flex: 20%;
+}
+
+#navAbout nav {
+    width:100%;
+    text-align: center;
+}
+
+#navAbout a {
+    text-decoration:none ;
+    text-align: center;
+    color:white;
+    font-weight: bold;
+    font-size:1.8em ;
+}
+
+#navAbout a:hover {
+    color:#bd0052;
+}
+
+#hrSecond {
+    flex:30% ;
+}
+
+#hrSecond hr {
+    width:70%;
+    margin:0 auto;
+    border: 2px solid white;
+}
+
+/*termina hijos de #navFirst*/
+
+.logo {
+    flex:6%;
+}
+
+#logo {
+    padding-left:30px ;
+    padding-top:30px ;
+    width:100px;
+    margin:0 auto;
+}
+
+#logo img {
+    margin:0 auto;
+    width: 50%;
+}
+
+
+/*---------------hijos de navsecond ------------*/
+
+.navSecond {
+    flex:47%;
+}
+
+#navSecond {
+    height:100% ;
+    width:100%;
+    margin:0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+}
+
+#hrThird {
+    flex:30% ;
+}
+
+#hrThird hr {
+    width:65%;
+    margin:0 auto;
+    border: 2px solid white;
+}
+
+#navServices {
+    flex: 20%;
+}
+
+#navServices nav {
+    width:100%;
+    text-align: center;
+}
+
+#navServices a {
+    text-decoration:none ;
+    text-align: center;
+    color:white;
+    font-weight: bold;
+    font-size:1.8em ;
+}
+
+#navServices a:hover {
+    color:#bd0052;
+}
+
+#hrForth {
+    flex:50% ;
+}
+
+#hrForth hr {
+    width:64%;
+    margin:0 auto;
+    border: 2px solid white;
+}
+
+.cta {
+    margin-top:120px ;
+    flex:100% ;
+    height:350px ;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+
+#cta {
+    width:50%;
+    margin:0 auto;
+    text-align: center;
+}
+
+#cta h1 {
+    font-size: 7em;
+    color:#fff;
+}
+
+#cta hr {
+    width:33%;
+    border: 3px solid white;
+    margin: 0 auto;
+}
+
+#cta p {
+    padding-top:20px ;
+    font-size:2.1em ;
+    padding-bottom:30px ;
+    color:white;
+}
+
+#cta button {
+    border:none;
+    background-color:#bd0052 ;
+    padding:10px 25px 10px 25px;
+    font-size: 2em;
+    color:white;
+    font-weight: bolder;
+}
+
+.red {
+    padding-top:40px ;
+    flex:100% ;
+    height:350px ;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+    justify-content: flex-end;
+}
+
+#red {
+  width:6%;
+}
+
+#red svg {
+    width:70px;
+    height: 70px;
+}
+
+#face svg:hover{
+    stroke: #bd0052;
+}
+
+#ins {
+    fill:white;
+}
+
+#ins svg:hover {
+    fill:#bd0052;
+}
+
+/*----inicia backUno------*/
+
+.backUno {
+    width:100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.title {
+    flex:100%;
+    height:80px ;
+}
+
+#title {
+    display: flex;
+    width:95%;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin:0 auto;
+    align-items: center;
+}
+
+#hrFifth {
+    flex:37% ;
+}
+
+#hrFifth hr {
+    width:50%;
+    border: 3px solid #bd0052;
+    margin-left:50% ;
+}
+
+#tittle {
+    flex:26%;
+    text-align: center;
+}
+
+#tittle h2 {
+    font-size:2.6em ;
+}
+
+#hrSixth {
+    flex:37%;
+}
+
+#hrSixth hr {
+    width:50%;
+    border: 3px solid #bd0052;
+    margin-right:50% ;
+}
+
+.img_first {
+    flex:100%;
+    height: 600px;
+}
+
+#img__first {
+    width:75%;
+    margin:0 auto;
+}
+
+#img__first img {
+    width:100%;
+}
+
+.expla {
+    flex:100%;
+}
+
+.explanation {
+    width:63%;
+    margin:0 auto;
+}
+
+.explanation p {
+    padding-top: 50px;
+    font-size: 2em;
+    padding-bottom:40px ;
+}
+
+/*-----inicia backTwo------*/
+
+.backTwo {
+    box-shadow: -10px -20px 25px black;
+    margin-top:100px ;
+    background-image: url("img/back3.jpg");
+    background-position: center center;
+    background-size: cover;
+    height:1100px ;
+    width:100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.titleTwo {
+    flex:100%;
+    height:20% ;
+}
+
+#titleTwo {
+    padding-top:60px ;
+    height:90% ;
+    width:80%;
+    display: flex;
+    text-align: center;
+    margin:0 auto;
+    align-items: center;
+}
+
+#hrSeventh {
+    flex:35% ;
+}
+
+#hrSeventh hr {
+    width:30%;
+    margin-left:70% ;  
+    border:4px solid #bd0052;
+}
+
+#tittleTwo {
+    flex: 30%;
+}
+
+#tittleTwo h2 {
+    font-size:2.8em ;
+    color:white;
+}
+
+#hrEight {
+    flex:35%;
+}
+
+#hrEight hr {
+    width:30%;
+    border:4px solid #bd0052;
+    margin-right:70%;
+}
+
+.info {
+    margin-top:0px ;
+    flex:50%;
+}
+
+.material {
+    width:80%;
+    height:90% ;
+    margin:0 auto;  
+    text-align: center; 
+}
+
+.material h2 {
+    font-size:2.6em ;
+    text-align: center;
+    padding-bottom:30px ;
+    color:white;
+    font-weight: bolder;
+}
+
+.material p {
+    width:70%;
+    color:white;
+    margin:0 auto;
+    font-size: 2.2em;
+    text-align: start;
+    padding-bottom:50px ;
+}
+
+.material button {
+    border:none;
+    background-color:#bd0052 ;
+    padding:10px 25px 10px 25px;
+    font-size: 2em;
+    color:white;
+    font-weight: bolder;
+}
+
+.material_img {
+    flex:50%;
+}
+
+/*-----inicia backThree ---------------*/
+
+.backThree {
+    margin-top: 150px;
+    width:100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.titleThree {
+    flex:100%;
+}
+
+#titleThree {
+    display: flex;
+    flex-wrap: wrap;
+    width:90%;
+    margin:0 auto;
+    text-align: center;
+    align-items: center;
+}
+
+#hrNineth {
+    flex:34%;
+}
+
+#hrNineth hr {
+    width:60%;
+    border:4px solid #bd0052;
+    margin-left:40%;
+}
+
+#tittleThree {
+    flex: 32%;
+}
+
+#tittleThree h2 {
+    font-size:2.8em ;
+    text-transform: uppercase;
+}
+
+#hrTenth {
+    flex:34%;
+
+}
+
+#hrTenth hr {
+    width:60%;
+    border:4px solid #bd0052;
+    margin-right:40%;
+}
+
+.infoTwo {
+    padding-top: 100px;
+    flex:100%;
+}
+
+#infoTwo {
+  display: flex;
+  flex-wrap: wrap;
+  width:90%;
+  justify-content: space-evenly;
+  margin:0 auto;
+  
+}
+
+.advan {
+    width:400px;
+    height: 500px;
+    text-align: center;
+}
+
+.advan h3 {
+    font-size:1.6em ;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.advan p {
+    width:80%;
+    font-size:1.2em;
+    margin:0 auto;
+    padding-bottom:30px ;   
+}
+
+.advan button {
+    border:none;
+    background-color:#bd0052 ;
+    padding:10px 30px 10px 30px;
+    font-size: 1.6em;
+    color:white;
+    font-weight: bolder;
+}
+
+/*-------inicia backForth-----------*/
+
+.backForth {
+    margin-top: 100px;
+    width:100%;
+    display: flex;
+    height:1100px;
+    flex-wrap: wrap;
+    background-image: url("img/back2.jpg");
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #000;
+}
+
+.titleForth {
+    flex:100%;
+    height:160px ;
+}
+
+#titleForth {
+    padding-top: 5%;
+    display: flex;
+    width:80%;
+    margin:0 auto;
+    align-items: center;
+    text-align: center;
+}
+
+#hrEleventh {
+    flex:30%;
+}
+
+#hrEleventh hr {
+    width:70%;
+    border:4px solid #bd0052;
+    margin-left:30%;
+}
+
+#tittleForth {
+    flex:40%;
+}
+
+#tittleForth h2 {
+    font-size:2.8em ; 
+    color:#fff;
+}
+
+#hrTwelve {
+    flex:30%;
+}
+
+#hrTwelve hr {
+    width:70%;
+    border:4px solid #bd0052;
+    margin-right:30%;
+}
+
+.paragraph {
+    margin-top: -50px;
+    flex:100%;
+}
+
+.paragra {
+    margin:0 auto;
+    width:60%;
+    text-align: center;
+    display: none;
+}
+
+.paragra h2 {
+    font-size: 2.5em;
+    padding-bottom:30px ;
+    color:#bd0052;
+}
+
+.paragra p {
+    width:60%;
+    margin:0 auto;
+    font-size: 2.8em;
+    color:#fff;
+}
+
+.personTestimonial {
+    flex:100%;
+    margin-top:-50px ;
+}
+
+.person_testimonial {
+    width:28%;
+    display: flex;
+    flex-wrap: wrap;
+    margin:0 auto;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.person {
+    width:170px;
+}
+
+.person Svg {
+    fill:#fff;
+}
+
+.active svg {
+   fill:#bd0052;
+}
+
+.people {
+    font-size: 1.5em;
+    color:#fff;
+    display: none;
+}
+
+/*-----inicia formulary----------*/
+
+.formulary {
+    margin-top: 100px;
+    width:100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.titleFifth {
+    flex:100%;
+}
+
+#titleFifth {
+    width:80%;
+    display: flex;
+    align-items: center;
+    margin:0 auto;
+    text-align: center;
+}
+
+#hrThirteenth {
+    flex:39%;
+}
+
+#hrThirteenth hr {
+    width:50%;
+    border:4px solid #bd0052;
+    margin-left:50%;
+}
+
+#tittleFifth {
+    flex:22%;
+}
+
+#tittleFifth h2 {
+    font-size:2.8em ; 
+    color:#000;
+}
+
+#hrFourteenth {
+    flex:39%;
+}
+
+#hrFourteenth hr {
+    width:50%;
+    border:4px solid #bd0052;
+    margin-right:50%;
+}
+
+.form {
+    display: flex;
+    flex-wrap: wrap;
+    flex:100%;
+}
+
+.formu {
+    padding-top: 40px;
+    width:45%;
+    margin:0 auto;
+}
+
+form {
+    width:100%;
+}
+
+input[type=text], input[type=tel], input[type=email] {
+    width: 100%;
+    padding: 14px;
+    border: none;
+    border-bottom: 6px solid #bd0052;
+    box-sizing: border-box;
+    margin-top: 12px;
+    margin-bottom: 18px;
+}
+
+label {
+    font-size: 2em;
+}
+
+textarea {
+    width:100%;
+    border:none;
+    height:230px ;
+    border-bottom: 6px solid #bd0052;
+    box-sizing: border-box;
+    margin-top: 12px;
+    margin-bottom: 50px;
+    resize: none;
+}
+
+input[type=submit] {
+    border:none;
+    background-color:#bd0052 ;
+    padding:10px 30px 10px 30px;
+    font-size: 2em;
+    color:white;
+    font-weight: bolder;
+    margin-left:41%;
+}
+
+
+/*-----inicia footer-----*/
+
+footer {
+    margin-top: 300px;
+    width:100%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #000;
+}
+
+.lgo {
+    flex:10%;
+}
+
+#lgo {
+    padding-left:30px ;
+    padding-top:30px ;
+    width:100px;
+    margin:0 auto;
+}
+
+#lgo img {
+    margin:0 auto;
+    width: 50%;
+}
+
+.comunity {
+    flex:40%;
+}
+
+#comunity {
+    width:80%;
+    margin:0 auto;
+}
+
+#comunity h3 {
+    padding-top:100px;
+    font-size: 1.8em;
+    padding-bottom: 15px;
+    color:#fff;
+}
+
+#comunity h4 {
+    font-size: 1.6em;
+    padding-bottom: 35px;
+    color:#fff;
+    font-weight: bold;
+}
+
+.references {
+    flex:40%;
+}
+
+#references {
+    width:80%;
+    margin:0 auto;
+}
+
+#references h3 {
+    padding-top:100px;
+    font-size: 1.8em;
+    padding-bottom: 15px;
+    color:#fff;
+}
+
+#references h4 {
+    font-size: 1.6em;
+    padding-bottom: 35px;
+    color:#fff;
+    font-weight: bold;
+}
+
+.redSocial {
+    flex:10%;
+}
+
+#redSocial {
+    padding-top: 150%;
+    width:50%;
+    margin:0 auto;
+    padding-bottom:30% ;
+}
+
+#instagram svg {
+    fill: #fff;
+    transition:1s ;
+}
+
+#instagram svg:hover {
+    fill:#bd0052;
+}
+
+#facebook svg {
+    stroke:#fff;
+    transition: 1S;
+}
+
+#facebook svg:hover {
+   stroke:#bd0052;
+}
+
+.copy {
+    flex:100%;
+    padding: 10px;
+    text-align: center;
+    background-color: #fff;
+}
+
+
+
+@media only screen and (min-width: 1500px) and (max-width:1640px) {
+
+    .navBar {
+       padding-top: 0px;
+    }
+
+    .navFirst {
+        flex:40%;
+    }
+    
+    #navFirst {
+        overflow: hidden;
+    }
+
+    .logo {
+        flex:10%;
+    }
+    
+    .navSecond {
+        flex:40%;
+    }
+
+    #navSecond {
+        overflow: hidden;
+        width:100%;
+    }
+
+    #hrThird {
+        flex:24% ;
+    }
+
+    #hrThird hr {
+        width:80%;
+        margin-right: 20%;
+        border: 2px solid white;
+    }
+
+    #navServices {
+        flex: 26%;
+    }
+
+    #hrForth {
+        flex:50% ; 
+    }
+
+    /*testimoni inicio*/
+
+    .paragraph {
+        margin-top: 20px;
+    }
+
+    .personTestimonial {
+        flex:100%;
+        margin-top:-20px ;
+    }
+
+    .person_testimonial {
+        width:35%;
+    }
+    
+}
+
+@media only screen and (min-width: 1400px) and (max-width:1499px) {
+
+    /*-----inicia back------------*/
+
+    .navBar {
+       padding-top: 0px;
+    }
+
+    .navFirst {
+        flex:40%;
+    }
+    
+    #navFirst {
+        overflow: hidden;
+        width: 100%;
+    }
+
+    .logo {
+        flex:10%;
+    }
+    
+    .navSecond {
+        flex:40%;
+    }
+
+    #navSecond {
+        overflow: hidden;
+        width:100%;
+    }
+
+    #hrThird {
+        flex:22% ;
+    }
+
+    #hrThird hr {
+        width:85%;
+        margin-right: 15%;
+        border: 2px solid white;
+    }
+
+    #navServices {
+        flex: 28%;
+    }
+
+    #hrForth {
+        flex:50% ; 
+    }
+
+    /*----------inicia backTwo -----------------*/
+
+    .info {
+        margin-top:-20px ;
+    }
+    
+    .material p {
+        width:90%;
+    }
+
+
+    /*------------inicia backForth---------*/
+    
+    .paragraph {
+        margin-top: 20px;
+    }
+
+    .paragra {
+        width:70%;
+    }
+
+    .personTestimonial {
+        flex:100%;
+        margin-top:0px ;
+    }
+
+    .person_testimonial {
+        width:40%;
+    }
+}
+
+@media only screen and (min-width: 1300px) and (max-width:1399px) {
+
+      /*-----inicia back------------*/
+
+      .navBar {
+        padding-top: 5px;
+     }
+ 
+     .navFirst {
+         flex:35%;
+     }
+     
+     #navFirst {
+         overflow: hidden;
+         width: 100%;
+     }
+
+     #hrFirst {
+        flex:46% ;
+    }
+
+    #navAbout {
+        flex: 28%;
+    }
+
+    #navAbout a {
+        font-size:1.6em ;
+    }
+    
+
+    #hrSecond {
+        flex:26% ;
+    }
+ 
+     .logo {
+         flex:20%;
+         overflow: hidden;
+     }
+     
+     .navSecond {
+         flex:35%;
+     }
+ 
+     #navSecond {
+         overflow: hidden;
+         width:100%;
+     }
+ 
+     #hrThird {
+         flex:22% ;
+     }
+ 
+     #hrThird hr {
+         width:85%;
+         margin-right: 15%;
+         border: 2px solid white;
+     }
+ 
+     #navServices {
+         flex: 28%;
+     }
+
+     #navServices a {
+        font-size:1.5em ;
+    }
+ 
+    #hrForth {
+        flex:50% ; 
+    }
+
+    /*----------inicia backTwo -----------------*/
+
+    .info {
+        margin-top:-20px ;
+    }
+    
+    .material p {
+        width:90%;
+    }
+
+    /*---------inicia backThree----------*/
+
+    #infoTwo {
+        width:100%;
+    }
+
+    /*------------inicia backForth---------*/
+    
+    .paragraph {
+        margin-top: 20px;
+    }
+
+    .paragra {
+        width:75%;
+    }
+
+    .personTestimonial {
+        flex:100%;
+        margin-top:0px ;
+    }
+
+    .person_testimonial {
+        width:40%;
+    }
+
+}
+
+@media only screen and (min-width: 1200px) and (max-width:1299px) {
+
+    /*-----inicia back------------*/  
+
+    .navBar {
+        padding-top: 5px;
+    }
+     
+    .navFirst {
+        flex:35%;
+    }
+         
+     #navFirst {
+        overflow: hidden;
+         width: 100%;
+    }
+    
+    #hrFirst {
+        flex:46% ;
+    }
+    
+    #navAbout {
+        flex: 28%;
+    }
+    
+   #navAbout a {
+        font-size:1.4em ;
+    }
+        
+    
+    #hrSecond {
+        flex:26% ;
+    }
+     
+    .logo {
+        flex:20%;
+        overflow: hidden;
+    }
+         
+    .navSecond {
+        flex:35%;
+    }
+     
+    #navSecond {
+        overflow: hidden;
+         width:100%;
+    }
+     
+    #hrThird {
+         flex:22% ;
+    }
+     
+    #hrThird hr {
+        width:85%;
+        margin-right: 15%;
+        border: 2px solid white;
+    }
+     
+    #navServices {
+        flex: 28%;
+    }
+    
+    #navServices a {
+        font-size:1.4em ;
+    }
+     
+    #hrForth {
+        flex:50% ; 
+    }
+
+    .cta {
+        margin-top:90px ;
+    }
+
+    #cta h1 {
+        font-size: 6.6em;
+        color:#fff;
+    }
+
+    #red {
+        width:6%;
+        margin-right: 2%;
+    }
+
+    /*------------inicia backUno---------------*/
+
+    #hrFifth hr {
+        width:40%;
+        margin-left:50% ;
+    }
+
+    #hrSixth hr {
+        width:40%;
+        margin-right:0% ;
+        margin-left: 10%;
+    }
+
+    .img_first {
+        height: 550px;
+    }
+    
+    /*-----inicia backTwo --------------*/
+
+    .backTwo {
+        margin-top: 0px;
+        height:900px ;
+    }
+
+    #hrSeventh hr {
+        width:30%;
+        margin-left:60% ;  
+    }
+
+    #hrEight hr {
+        width:30%;
+        margin-right:0%;
+        margin-left: 11%;
+    }
+
+    .info {
+        margin-top:-10px ;
+    }
+        
+    .material p {
+        width:95%;
+    }
+
+    /*----------inicia backThree-----------*/
+
+    #hrNineth {
+        flex:26%;
+    }
+
+    #tittleThree {
+        flex: 48%;
+    }
+
+    #hrTenth {
+        flex:26%;   
+    }
+
+
+    .backForth {
+        margin-top: 90px;
+    }
+
+    #infoTwo {
+        width:95%;
+    }
+
+   /*------------inicia backForth---------*/
+    
+   .paragraph {
+    margin-top: 20px;
+   }
+
+   .paragra {
+    width:80%;
+   }
+
+   .personTestimonial {
+    flex:100%;
+    margin-top:0px ;
+   }
+
+   .person_testimonial {
+    width:45%;
+   }
+      
+}
+
+@media only screen and (min-width: 1100px) and (max-width:1199px) {
+
+    /*-----inicia back------------*/  
+
+    .back {
+        height: 1000px; 
+    }
+
+    .navBar {
+        padding-top: 5px;
+    }
+     
+    .navFirst {
+        flex:35%;
+    }
+         
+     #navFirst {
+        overflow: hidden;
+         width: 100%;
+    }
+    
+    #hrFirst {
+        flex:46% ;
+    }
+    
+    #navAbout {
+        flex: 28%;
+    }
+    
+   #navAbout a {
+        font-size:1.3em ;
+    }
+        
+    
+    #hrSecond {
+        flex:26% ;
+    }
+     
+    .logo {
+        flex:20%;
+        overflow: hidden;
+    }
+         
+    .navSecond {
+        flex:35%;
+    }
+     
+    #navSecond {
+        overflow: hidden;
+         width:100%;
+    }
+     
+    #hrThird {
+         flex:22% ;
+    }
+     
+    #hrThird hr {
+        width:85%;
+        margin-right: 15%;
+        border: 2px solid white;
+    }
+     
+    #navServices {
+        flex: 28%;
+    }
+    
+    #navServices a {
+        font-size:1.3em ;
+    }
+     
+    #hrForth {
+        flex:50% ; 
+    }
+
+    .cta {
+        margin-top:90px ;
+    }
+
+    #cta h1 {
+        font-size: 6.5em;
+        color:#fff;
+    }
+
+    #red {
+        width:6%;
+        margin-right: 2%;
+    }
+
+    #cta hr {
+        width:50%;
+        border: 3px solid white;
+        margin: 0 auto;
+    }
+
+   /*------------inicia backUno---------------*/
+
+   #title  {
+       width:90%;
+       overflow: hidden;
+   }
+
+   #hrFifth {
+    flex:35% ;
+   }
+
+   #hrFifth hr {
+    width:40%;
+    margin-left:50% ;
+   }
+
+   #tittle {
+    flex:30%;
+    text-align: center;
+   }
+
+   #hrSixth {
+    flex:35%;
+   }
+
+   #hrSixth hr {
+    width:40%;
+    margin-right:0% ;
+    margin-left: 10%;
+   }
+
+   .img_first {
+    height: 440px;
+   }
+
+   .explanation {
+    width:70%;
+   }
+
+    /*-----inicia backTwo --------------*/
+
+    .backTwo {
+        margin-top: 0px;
+        height:900px ;
+    }
+
+    #hrSeventh hr {
+        width:30%;
+        margin-left:60% ;  
+    }
+
+    #hrEight hr {
+        width:30%;
+        margin-right:0%;
+        margin-left: 11%;
+    }
+
+    .info {
+        margin-top:-10px ;
+    }
+        
+    .material {
+       width:90%;
+    }
+
+    .material p {
+        width:95%;
+    }
+
+    /*----------inicia backThree-----------*/
+
+    #hrNineth {
+        flex:25%;
+    }
+
+    #tittleThree {
+        flex: 50%;
+    }
+
+    #hrTenth {
+        flex:25%;   
+    }   
+
+    .backForth {
+        margin-top: 90px;
+    }
+
+    #infoTwo {
+        width:95%;
+    }    
+    
+    /*------------inicia backForth---------*/
+    
+   .paragraph {
+    margin-top: 20px;
+   }
+
+   .paragra {
+    width:80%;
+   }
+
+   .paragra p {
+    width:70%;
+   }
+
+   .personTestimonial {
+    flex:100%;
+    margin-top:0px ;
+   }
+
+   .person_testimonial {
+    width:50%;
+   }   
+
+}
+
+@media only screen and (min-width: 1000px) and (max-width:1099px) {
+
+  /*-----inicia back------------*/  
+
+    .back {
+        height: 900px; 
+        background-position: center center;
+    }
+
+    .navBar {
+        padding-top: 5px;
+    }
+     
+    .navFirst {
+        flex:35%;
+    }
+         
+     #navFirst {
+        overflow: hidden;
+         width: 100%;
+    }
+    
+    #hrFirst {
+        flex:44% ;
+    }
+    
+    #navAbout {
+        flex: 30%;
+    }
+    
+   #navAbout a {
+        font-size:1.3em ;
+    }
+        
+    
+    #hrSecond {
+        flex:26% ;
+    }
+     
+    .logo {
+        flex:20%;
+        overflow: hidden;
+    }
+         
+    .navSecond {
+        flex:35%;
+    }
+     
+    #navSecond {
+        overflow: hidden;
+         width:100%;
+    }
+     
+    #hrThird {
+         flex:22% ;
+    }
+     
+    #hrThird hr {
+        width:85%;
+        margin-right: 15%;
+    }
+     
+    #navServices {
+        flex: 34%;
+    }
+    
+    #navServices a {
+        font-size:1.3em ;
+    }
+     
+    #hrForth {
+        flex:44% ; 
+    }
+
+    .cta {
+        margin-top:140px ;
+    }
+
+    #cta h1 {
+        font-size: 6.5em;
+        color:#fff;
+    }
+
+    #red {
+        width:6%;
+        margin-right: 2%;
+    }
+
+    #cta hr {
+        width:50%;
+        border: 3px solid white;
+        margin: 0 auto;
+    }  
+    
+    #cta button {
+        font-size: 1.6em;
+    }
+
+  /*------------inicia backUno---------------*/
+
+   #title  {
+       width:95%;
+       overflow: hidden;
+   }
+
+   #hrFifth {
+    flex:33% ;
+   }
+
+   #hrFifth hr {
+    width:40%;
+    margin-left:50% ;
+   }
+
+   #tittle {
+    flex:34%;
+    text-align: center;
+   }
+
+   #hrSixth {
+    flex:33%;
+   }
+
+   #hrSixth hr {
+    width:40%;
+    margin-right:0% ;
+    margin-left: 10%;
+   }
+
+   .img_first {
+    height: 420px;
+   }
+
+   .explanation {
+    width:80%;
+   }
+   
+    /*-----inicia backTwo --------------*/
+
+    .backTwo {
+        margin-top: 0px;
+        height:900px ;
+    }
+
+    #hrSeventh hr {
+        width:30%;
+        margin-left:60% ;  
+    }
+
+    #hrEight hr {
+        width:30%;
+        margin-right:0%;
+        margin-left: 11%;
+    }
+
+    .info {
+        margin-top:-10px ;
+    }
+        
+    .material {
+       width:95%;
+    }
+
+    .material p {
+        width:95%;
+    }  
+    
+    /*----------inicia backThree-----------*/
+
+    #hrNineth {
+        flex:25%;
+    }
+
+    #tittleThree {
+        flex: 50%;
+    }
+
+    #hrTenth {
+        flex:25%;   
+    }   
+
+    .backForth {
+        margin-top: 90px;
+    }
+
+    #infoTwo {
+        width:95%;
+    }
+    
+    /*------------inicia backForth---------*/
+    
+   .paragraph {
+    margin-top: 20px;
+   }
+
+   .paragra {
+    width:80%;
+   }
+
+   .paragra p {
+    width:80%;
+   }
+
+   .personTestimonial {
+    flex:100%;
+    margin-top:0px ;
+   }
+
+   .person_testimonial {
+    width:55%;
+   }   
+   
+   /*-----form----*/
+
+   input[type=submit] {
+    font-size: 2em;
+    margin-left:34%;
+}
+}
+
+@media only screen and (min-width: 900px) and (max-width:999px) {
+
+    /*-----inicia back------------*/  
+
+    .back {
+        height: 900px; 
+        background-position: center center;
+    }
+
+    .navBar {
+        padding-top: 5px;
+    }
+     
+    .navFirst {
+        flex:35%;
+    }
+         
+     #navFirst {
+        overflow: hidden;
+         width: 100%;
+    }
+    
+    #hrFirst {
+        flex:44% ;
+    }
+    
+    #navAbout {
+        flex: 30%;
+    }
+    
+   #navAbout a {
+        font-size:1.3em ;
+    }
+        
+    
+    #hrSecond {
+        flex:26% ;
+    }
+     
+    .logo {
+        flex:20%;
+        overflow: hidden;
+    }
+         
+    .navSecond {
+        flex:35%;
+    }
+     
+    #navSecond {
+        overflow: hidden;
+         width:100%;
+    }
+     
+    #hrThird {
+         flex:22% ;
+    }
+     
+    #hrThird hr {
+        width:85%;
+        margin-right: 15%;
+    }
+     
+    #navServices {
+        flex: 34%;
+    }
+    
+    #navServices a {
+        font-size:1.3em ;
+    }
+     
+    #hrForth {
+        flex:44% ; 
+    }
+
+    .cta {
+        margin-top:140px ;
+    }
+
+    #cta h1 {
+        font-size: 6.4em;
+        color:#fff;
+    }
+
+    #red {
+        width:6%;
+        margin-right: 2%;
+    }
+
+    #face svg {
+        width:60px;
+        height: 60px;
+    }
+
+    #ins svg {
+        width:60px;
+        height: 60px;
+    }
+
+    #cta hr {
+        width:50%;
+        border: 3px solid white;
+        margin: 0 auto;
+    }  
+    
+    #cta button {
+        font-size: 1.5em;
+    }  
+    
+    /*------------inicia backUno---------------*/
+
+   #title  {
+       width:97%;
+       overflow: hidden;
+   }
+
+   #hrFifth {
+    flex:33% ;
+   }
+
+   #hrFifth hr {
+    width:40%;
+    margin-left:50% ;
+   }
+
+   #tittle {
+    flex:34%;
+    text-align: center;
+   }
+
+   #hrSixth {
+    flex:33%;
+   }
+
+   #hrSixth hr {
+    width:40%;
+    margin-right:0% ;
+    margin-left: 10%;
+   }
+
+   .img_first {
+    height: 380px;
+   }
+
+   .explanation {
+    width:80%;
+   }   
+   
+   .explanation p {
+    padding-top: 40px;
+    font-size: 1.8em;
+    padding-bottom:30px ;
+   }
+
+    /*-----inicia backTwo --------------*/
+
+    .backTwo {
+        margin-top: 0px;
+        height:900px ;
+    }
+
+    #hrSeventh hr {
+        width:30%;
+        margin-left:60% ;  
+    }
+
+    #hrEight hr {
+        width:30%;
+        margin-right:0%;
+        margin-left: 11%;
+    }
+
+    .info {
+        margin-top:-10px ;
+        flex:60%;
+    }
+
+    .material_img {
+        flex:40%;
+    }
+        
+    .material {
+       width:95%;
+    }
+
+    .material p {
+        width:95%;
+        font-size: 2em;
+        font-weight: bold;
+    }  
+
+    /*----------inicia backThree-----------*/
+
+    #hrNineth {
+        flex:25%;
+    }
+
+    #tittleThree {
+        flex: 50%;
+    }
+
+    #tittleThree h2 {
+        font-size:2.2em ;
+    }
+
+    #hrTenth {
+        flex:25%;   
+    }   
+
+    .backForth {
+        margin-top: 90px;
+    }
+
+    #infoTwo {
+        width:95%;
+    }
+    
+    /*------------inicia backForth---------*/
+
+    .backForth {
+        margin-top: 80px;
+        width:100%;
+        height:850px;
+    }
+
+    #titleForth {
+        padding-top: 6%;
+        width:90%;
+    }
+
+    #hrEleventh {
+        flex:26%;
+    }
+
+    #hrEleventh hr {
+        width:60%;
+        margin-left:30%;
+    }
+
+    #tittleForth {
+        flex:48%;
+    }
+
+    #hrTwelve {
+        flex:26%;
+    }
+
+    #hrTwelve hr {
+        width:60%;
+        margin-right:0%;
+        margin-left: 10%;
+    }
+
+    #tittleForth h2 {
+        font-size:2em ; 
+    }
+    
+
+    .paragraph {
+        margin-top: -30px;
+    }
+    
+    .paragra {
+        width:80%;
+    }
+    
+    .paragra p {
+      width:80%;
+      font-size: 2.4em;
+    }
+    
+    .personTestimonial {
+        flex:100%;
+        margin-top:0px ;
+    }
+    
+    .person_testimonial {
+        width:58%;
+    }    
+    
+    /*----------form-----*/
+
+    input[type=submit] {
+        font-size: 2em;
+        margin-left:34%;
+    }
+
+    /*------footer------*/
+
+    footer {
+        margin-top: 250px;
+        width:100%;
+        overflow: hidden;
+    }
+
+    .lgo {
+        flex:20%;
+    }
+
+    .comunity {
+        flex:40%;
+    }
+
+    .references {
+        flex:40%;
+    }
+
+    .redSocial {
+        flex:100%;
+    }
+
+    #redSocial {
+        padding-top:3%;
+        width:20%;
+        padding-bottom:5% ;
+        margin-left: 80%;
+    }
+
+}
+
+@media only screen and (min-width: 800px) and (max-width:899px) {
+
+
+    /*-----inicia back------------*/  
+
+    .back {
+        height: 880px; 
+        background-position: center center;
+    }
+
+    .navBar {
+        padding-top: 5px;
+    }
+     
+    .navFirst {
+        flex:40%;
+    }
+         
+     #navFirst {
+        overflow: hidden;
+         width: 100%;
+    }
+    
+    #hrFirst {
+        flex:44% ;
+    }
+    
+    #navAbout {
+        flex: 30%;
+    }
+    
+   #navAbout a {
+        font-size:1.3em ;
+    }
+        
+    
+    #hrSecond {
+        flex:26% ;
+    }
+     
+    .logo {
+        flex:10%;
+        overflow: hidden;
+    }
+         
+    .navSecond {
+        flex:40%;
+    }
+     
+    #navSecond {
+        overflow: hidden;
+         width:100%;
+    }
+     
+    #hrThird {
+         flex:22% ;
+    }
+     
+    #hrThird hr {
+        width:85%;
+        margin-right: 15%;
+    }
+     
+    #navServices {
+        flex: 34%;
+    }
+    
+    #navServices a {
+        font-size:1.3em ;
+    }
+     
+    #hrForth {
+        flex:44% ; 
+    }
+
+    .cta {
+        margin-top:140px ;
+    }
+
+    #cta h1 {
+        font-size: 6.4em;
+        color:#fff;
+    }
+
+    #red {
+        width:6%;
+        margin-right: 2%;
+    }
+
+    #face svg {
+        width:60px;
+        height: 60px;
+    }
+
+    #ins svg {
+        width:60px;
+        height: 60px;
+    }
+
+    #cta hr {
+        width:50%;
+        border: 3px solid white;
+        margin: 0 auto;
+    }  
+    
+    #cta button {
+        font-size: 1.5em;
+    }  
+    
+    /*------------inicia backUno---------------*/
+
+    #title  {
+        width:100%;
+        overflow: hidden;
+    }
+ 
+    #hrFifth {
+
+     flex:30% ;
+
+    }
+ 
+    #hrFifth hr {
+     width:40%;
+     margin-left:50% ;
+    }
+ 
+    #tittle {
+     flex:40%;
+     text-align: center;
+    }
+ 
+    #hrSixth {
+     flex:30%;
+    }
+ 
+    #hrSixth hr {
+     width:40%;
+     margin-right:0% ;
+     margin-left: 10%;
+    }
+ 
+    .img_first {
+     height: 340px;
+    }
+ 
+    .explanation {
+     width:80%;
+    }   
+    
+    .explanation p {
+     padding-top: 40px;
+     font-size: 1.8em;
+     padding-bottom:30px ;
+    } 
+    
+    /*-----inicia backTwo --------------*/
+
+    .backTwo {
+        margin-top: 0px;
+        height:700px ;
+        background-color: #000;
+    }
+
+    #hrSeventh hr {
+        width:30%;
+        margin-left:60% ;  
+    }
+
+    #hrEight hr {
+        width:30%;
+        margin-right:0%;
+        margin-left: 11%;
+    }
+
+    .info {
+        margin-top:-10px ;
+        flex:100%;
+    }
+
+    .material_img {
+        flex:0%;
+    }
+        
+    .material {
+       width:100%;
+    }
+
+    .material p {
+        width:80%;
+        font-size: 2em;
+        font-weight: bold;
+    }
+    
+    /*----------inicia backThree-----------*/
+
+    .backThree {
+        margin-top:100px;
+    }
+
+    #hrNineth {
+        flex:25%;
+    }
+
+    #tittleThree {
+        flex: 50%;
+    }
+
+    #tittleThree h2 {
+        font-size:2.2em ;
+    }
+
+    #hrTenth {
+        flex:25%;   
+    }   
+
+
+    #infoTwo {
+        width:100%;
+    } 
+    
+    /*------------inicia backForth---------*/
+
+    .backForth {
+        margin-top: 60px;
+        width:100%;
+        height:850px;
+    }
+
+    #titleForth {
+        padding-top: 8%;
+        width:100%;
+    }
+
+    #hrEleventh {
+        flex:26%;
+    }
+
+    #hrEleventh hr {
+        width:50%;
+        margin-left:40%;
+    }
+
+    #tittleForth {
+        flex:48%;
+    }
+
+    #hrTwelve {
+        flex:26%;
+    }
+
+    #hrTwelve hr {
+        width:50%;
+        margin-right:0%;
+        margin-left: 10%;
+    }
+
+    #tittleForth h2 {
+        font-size:2em ; 
+    }
+    
+
+    .paragraph {
+        margin-top: -30px;
+    }
+    
+    .paragra {
+        width:80%;
+    }
+    
+    .paragra p {
+      width:85%;
+      font-size: 2.4em;
+    }
+    
+    .personTestimonial {
+        flex:100%;
+        margin-top:0px ;
+    }
+    
+    .person_testimonial {
+        width:65%;
+    }  
+    
+    /*----------form--------*/
+
+    input[type=submit] {
+        font-size: 2em;
+        margin-left:34%;
+    }
+
+    /*------footer------*/
+
+    footer {
+        margin-top: 250px;
+        width:100%;
+        overflow: hidden;
+    }
+
+    .lgo {
+        flex:20%;
+    }
+
+    .comunity {
+        flex:40%;
+    }
+
+    .references {
+        flex:40%;
+    }
+
+    .redSocial {
+        flex:100%;
+    }
+
+    #redSocial {
+        padding-top:3%;
+        width:20%;
+        padding-bottom:5% ;
+        margin-left: 80%;
+    }    
+}
+
+
+@media only screen and (min-width: 700px) and (max-width:799px) {
+   
+    /*-----inicia back------------*/  
+
+    .back {
+        height: 860px; 
+        background-position: center center;
+    }
+
+    .navBar {
+        padding-top: 5px;
+    }
+     
+    .navFirst {
+        flex:45%;
+    }
+         
+     #navFirst {
+        overflow: hidden;
+         width: 100%;
+    }
+    
+    #hrFirst {
+        flex:30% ;
+    }
+    
+    #navAbout {
+        flex: 40%;
+    }
+    
+   #navAbout a {
+        font-size:1.3em ;
+    }
+        
+    
+    #hrSecond {
+        flex:30% ;
+    }
+     
+    .logo {
+        flex:10%;
+        overflow: hidden;
+    }
+
+    #logo {
+        padding-left:15px ;
+        padding-right: 15px;
+        padding-top:30px ;
+    }
+           
+    .navSecond {
+        flex:45%;
+    }
+     
+    #navSecond {
+        overflow: hidden;
+         width:100%;
+    }
+     
+    #hrThird {
+         flex:30% ;
+    }
+     
+    #hrThird hr {
+        width:70%;
+       margin:0 auto;
+    }
+     
+    #navServices {
+        flex: 40%;
+    }
+    
+    #navServices a {
+        font-size:1.3em ;
+    }
+     
+    #hrForth {
+        flex:30% ; 
+    }
+
+    .cta {
+        margin-top:140px ;
+    }
+
+    #cta h1 {
+        font-size: 5.8em;
+        color:#fff;
+    }
+
+    #cta p {
+        padding-top:20px ;
+        font-size:2em ;
+        padding-bottom:30px ;
+    }
+
+    #red {
+        width:6%;
+        margin-right: 4%;
+    }
+
+    #face svg {
+        width:60px;
+        height: 60px;
+    }
+
+    #ins svg {
+        width:60px;
+        height: 60px;
+    }
+
+    #cta hr {
+        width:50%;
+        border: 3px solid white;
+        margin: 0 auto;
+    }  
+    
+    #cta button {
+        font-size: 1.5em;
+    }  
+    
+    /*------------inicia backUno---------------*/
+
+    #title  {
+        width:100%;
+        overflow: hidden;
+    }
+ 
+    #hrFifth {
+     flex:25% ;
+    }
+ 
+    #hrFifth hr {
+     width:40%;
+     margin-left:60% ;
+    }
+ 
+    #tittle {
+     flex:50%;
+     text-align: center;
+    }
+ 
+    #hrSixth {
+     flex:25%;
+    }
+ 
+    #hrSixth hr {
+     width:40%;
+     margin-right:60% ;
+     margin-left: 0%;
+    }
+ 
+    .img_first {
+     height: 340px;
+    }
+ 
+    .explanation {
+     width:80%;
+    }   
+    
+    .explanation p {
+     padding-top: 40px;
+     font-size: 1.8em;
+     padding-bottom:30px ;
+    }    
+    
+    /*-----inicia backTwo --------------*/
+
+    .backTwo {
+        margin-top: 0px;
+        height:650px ;
+        background-color: #000;
+    }
+
+    #hrSeventh hr {
+        width:30%;
+        margin-left:60% ;  
+    }
+
+    #hrEight hr {
+        width:30%;
+        margin-right:0%;
+        margin-left: 11%;
+    }
+
+    #tittleTwo h2 {
+        font-size:2em ;
+    }
+
+    .info {
+        margin-top:-30px ;
+        flex:100%;
+    }
+
+    .material_img {
+        flex:0%;
+    }
+
+    .material h2 {
+        font-size:2em ;
+    }
+    
+    .material {
+       width:100%;
+    }
+
+    .material p {
+        width:80%;
+        font-size: 1.8em;
+        font-weight: bold;
+    }
+    
+    .material button {
+        font-size: 1.8em;
+    }
+
+    /*----------inicia backThree-----------*/
+
+    .backThree {
+        margin-top:100px;
+    }
+
+    #hrNineth {
+        flex:20%;
+    }
+
+    #tittleThree {
+        flex: 60%;
+    }
+
+    #tittleThree h2 {
+        font-size:2em ;
+    }
+
+    #hrTenth {
+        flex:20%;   
+    }   
+
+    #infoTwo {
+        width:100%;
+    }   
+    
+    /*------------inicia backForth---------*/
+
+    .backForth {
+        margin-top: 60px;
+        width:100%;
+        height:750px;
+    }
+
+    #titleForth {
+        padding-top: 8%;
+        width:80%;
+    }
+
+    #hrEleventh {
+        flex:16%;
+    }
+
+    #hrEleventh hr {
+        width:50%;
+        margin-left:40%;
+    }
+
+    #tittleForth {
+        flex:68%;
+    }
+
+    #hrTwelve {
+        flex:16%;
+    }
+
+    #hrTwelve hr {
+        width:50%;
+        margin-right:0%;
+        margin-left: 10%;
+    }
+
+    #tittleForth h2 {
+        font-size:2em ; 
+    }
+    
+
+    .paragraph {
+        margin-top: -60px;
+    }
+    
+    .paragra {
+        width:80%;
+    }
+    
+    .paragra p {
+      width:90%;
+      font-size: 2em;
+    }
+    
+    .personTestimonial {
+        flex:100%;
+        margin-top:0px ;
+    }
+    
+    .person_testimonial {
+        width:80%;
+    }  
+    
+    .person svg {
+        width:90px;
+        height: 90px;
+    }
+
+    /*----------form--------*/
+    #hrThirteenth {
+        flex:30%;
+    }
+
+    #tittleFifth {
+        flex:40%;
+    }
+
+    #hrFourteenth {
+        flex:30%;
+    }
+
+    #tittleFifth h2 {
+        font-size:2.2em ; 
+    }    
+
+    input[type=submit] {
+        font-size: 2em;
+        margin-left:32%;
+    }  
+    
+    .formu {
+        padding-top: 40px;
+        width:55%;
+    }
+
+    /*------footer------*/
+
+    footer {
+        margin-top: 250px;
+        width:100%;
+        overflow: hidden;
+    }
+
+    .lgo {
+        flex:20%;
+    }
+
+    .comunity {
+        flex:40%;
+    }
+
+    .references {
+        flex:40%;
+    }
+
+    .redSocial {
+        flex:100%;
+    }
+
+    #redSocial {
+        padding-top:3%;
+        width:20%;
+        padding-bottom:5% ;
+        margin-left: 80%;
+    }      
+}
+
+@media only screen and (min-width: 600px) and (max-width:699px) {
+ 
+    /*-----inicia back------------*/  
+
+    .navHidden {
+        display: flex;
+    }
+
+    .container {
+        position: absolute;
+        top:-20px; right: -110px;
+        bottom: 0; left: 0px;
+        overflow: hidden;
+    }
+
+    .back {
+        height: 840px; 
+        background-position: center center;
+        margin-bottom: 120px;
+    }
+
+    .navBar {
+        padding-top: 5px;
+        display: none;
+    }
+     
+    .navFirst {
+        flex:45%;
+    }
+         
+     #navFirst {
+        overflow: hidden;
+         width: 100%;
+    }
+    
+    #hrFirst {
+        flex:30% ;
+    }
+    
+    #navAbout {
+        flex: 40%;
+    }
+    
+   #navAbout a {
+        font-size:1.3em ;
+    }
+        
+    
+    #hrSecond {
+        flex:30% ;
+    }
+     
+    .logo {
+        flex:10%;
+        overflow: hidden;
+    }
+
+    #logo {
+        padding-left:15px ;
+        padding-right: 15px;
+        padding-top:30px ;
+    }
+           
+    .navSecond {
+        flex:45%;
+    }
+     
+    #navSecond {
+        overflow: hidden;
+         width:100%;
+    }
+     
+    #hrThird {
+         flex:30% ;
+    }
+     
+    #hrThird hr {
+        width:70%;
+       margin:0 auto;
+    }
+     
+    #navServices {
+        flex: 40%;
+    }
+    
+    #navServices a {
+        font-size:1.3em ;
+    }
+     
+    #hrForth {
+        flex:30% ; 
+    }
+
+    .cta {
+        margin-top:140px ;
+    }
+
+    #cta h1 {
+        font-size: 5em;
+        color:#fff;
+        width: 60%;
+    }
+
+    #cta p {
+        padding-top:20px ;
+        font-size:2em ;
+        padding-bottom:30px ;
+    }
+
+    #red {
+        width:6%;
+        margin-right: 6%;
+    }
+
+    #face svg {
+        width:60px;
+        height: 60px;
+    }
+
+    #ins svg {
+        width:60px;
+        height: 60px;
+    }
+
+    #cta hr {
+        width:60%;
+        border: 3px solid white;
+        margin: 0 auto;
+    }  
+    
+    #cta button {
+        font-size: 1.3em;
+    }  
+    
+    /*------------inicia backUno---------------*/
+
+    #title  {
+        width:100%;
+        overflow: hidden;
+    }
+ 
+    #hrFifth {
+     flex:25% ;
+    }
+ 
+    #hrFifth hr {
+     width:40%;
+     margin-left:60% ;
+    }
+ 
+    #tittle {
+     flex:50%;
+     text-align: center;
+    }
+ 
+    #hrSixth {
+     flex:25%;
+    }
+ 
+    #hrSixth hr {
+     width:40%;
+     margin-right:60% ;
+     margin-left: 0%;
+    }
+ 
+    .img_first {
+     height: 270px;
+    }
+ 
+    .explanation {
+     width:90%;
+    }   
+    
+    .explanation p {
+     padding-top: 40px;
+     font-size: 1.8em;
+     padding-bottom:30px ;
+    }  
+
+        /*-----inicia backTwo --------------*/
+
+        .backTwo {
+            margin-top: 0px;
+            height:650px ;
+            background-color: #000;
+            background-image: none;
+        }
+    
+        #hrSeventh hr {
+            width:30%;
+            margin-left:60% ;  
+        }
+    
+        #hrEight hr {
+            width:30%;
+            margin-right:0%;
+            margin-left: 11%;
+        }
+    
+        #tittleTwo h2 {
+            font-size:2em ;
+        }
+    
+        .info {
+            margin-top:-30px ;
+            flex:100%;
+        }
+    
+        .material_img {
+            flex:0%;
+        }
+    
+        .material h2 {
+            font-size:2em ;
+        }
+        
+        .material {
+           width:100%;
+        }
+    
+        .material p {
+            width:93%;
+            font-size: 1.8em;
+            font-weight: bold;
+        }
+        
+        .material button {
+            font-size: 1.8em;
+        }
+
+    /*----------inicia backThree-----------*/
+
+    .backThree {
+        margin-top:100px;
+    }
+
+    #hrNineth {
+        flex:20%;
+    }
+
+    #tittleThree {
+        flex: 60%;
+    }
+
+    #tittleThree h2 {
+        font-size:2em ;
+    }
+
+    #hrTenth {
+        flex:20%;   
+    }   
+
+    #infoTwo {
+        width:100%;
+    }  
+
+
+    /*------------inicia backForth---------*/
+
+    .backForth {
+        margin-top: 60px;
+        width:100%;
+        height:780px;
+    }
+
+    #titleForth {
+        padding-top: 8%;
+        width:80%;
+    }
+
+    #hrEleventh {
+        flex:16%;
+    }
+
+    #hrEleventh hr {
+        width:50%;
+        margin-left:40%;
+    }
+
+    #tittleForth {
+        flex:68%;
+    }
+
+    #hrTwelve {
+        flex:16%;
+    }
+
+    #hrTwelve hr {
+        width:50%;
+        margin-right:0%;
+        margin-left: 10%;
+    }
+
+    #tittleForth h2 {
+        font-size:2em ; 
+    }
+    
+
+    .paragraph {
+        margin-top: -60px;
+    }
+    
+    .paragra {
+        width:90%;
+    }
+    
+    .paragra p {
+      width:90%;
+      font-size: 2em;
+    }
+    
+    .personTestimonial {
+        flex:100%;
+        margin-top:0px ;
+    }
+    
+    .person_testimonial {
+        width:85%;
+    }  
+    
+    .person svg {
+        width:90px;
+        height: 90px;
+    }    
+
+    /*----------form--------*/
+    #hrThirteenth {
+        flex:30%;
+    }
+
+    #tittleFifth {
+        flex:40%;
+    }
+
+    #hrFourteenth {
+        flex:30%;
+    }
+
+    #tittleFifth h2 {
+        font-size:2.2em ; 
+    }    
+
+    input[type=submit] {
+        font-size: 1.8em;
+        margin-left:31%;
+    }  
+    
+    .formu {
+        padding-top: 40px;
+        width:55%;
+    }  
+    
+    /*------footer------*/
+
+    footer {
+        margin-top: 250px;
+        width:100%;
+        overflow: hidden;
+    }
+
+    .lgo {
+        flex:20%;
+    }
+
+    .comunity {
+        flex:40%;
+    }
+
+    .references {
+        flex:40%;
+    }
+
+    .redSocial {
+        flex:100%;
+    }
+
+    #redSocial {
+        padding-top:3%;
+        width:30%;
+        padding-bottom:5% ;
+        margin-left: 70%;
+    }      
+    
+}
+
+@media only screen and (min-width: 500px) and (max-width:599px) {
+    /*-----inicia back------------*/  
+
+    .navHidden {
+        display: flex;
+    }
+
+    .container {
+        position: absolute;
+        top:-20px; right: -40px;
+        bottom: 0; left: 0px;
+        overflow: hidden;
+    }
+
+    .back {
+        height: 840px; 
+        background-position: center center;
+        margin-bottom: 120px;
+    }
+
+    .navBar {
+        padding-top: 5px;
+        display: none;
+    }
+     
+    .navFirst {
+        flex:45%;
+    }
+         
+     #navFirst {
+        overflow: hidden;
+         width: 100%;
+    }
+    
+    #hrFirst {
+        flex:30% ;
+    }
+    
+    #navAbout {
+        flex: 40%;
+    }
+    
+   #navAbout a {
+        font-size:1.3em ;
+    }
+        
+    
+    #hrSecond {
+        flex:30% ;
+    }
+     
+    .logo {
+        flex:10%;
+        overflow: hidden;
+    }
+
+    #logo {
+        padding-left:15px ;
+        padding-right: 15px;
+        padding-top:30px ;
+    }
+           
+    .navSecond {
+        flex:45%;
+    }
+     
+    #navSecond {
+        overflow: hidden;
+         width:100%;
+    }
+     
+    #hrThird {
+         flex:30% ;
+    }
+     
+    #hrThird hr {
+        width:70%;
+       margin:0 auto;
+    }
+     
+    #navServices {
+        flex: 40%;
+    }
+    
+    #navServices a {
+        font-size:1.3em ;
+    }
+     
+    #hrForth {
+        flex:30% ; 
+    }
+
+    .cta {
+        margin-top:140px ;
+    }
+
+    #cta {
+        width:90%;
+    }
+
+    #cta h1 {
+        font-size: 5em;
+        color:#fff;
+    }
+
+    #cta p {
+        padding-top:20px ;
+        font-size:1.9em ;
+        padding-bottom:30px ;
+    }
+
+    #red {
+        width:6%;
+        margin-right: 8%;
+    }
+
+    #face svg {
+        width:60px;
+        height: 60px;
+    }
+
+    #ins svg {
+        width:60px;
+        height: 60px;
+    }
+
+    #cta hr {
+        width:40%;
+        border: 3px solid white;
+        margin: 0 auto;
+    }  
+    
+    #cta button {
+        font-size: 1.3em;
+    }  
+
+    /*------------inicia backUno---------------*/
+
+    #title  {
+        width:100%;
+        overflow: hidden;
+    }
+ 
+    #hrFifth {
+     flex:25% ;
+    }
+ 
+    #hrFifth hr {
+     width:40%;
+     margin-left:60% ;
+    }
+ 
+    #tittle {
+     flex:50%;
+     text-align: center;
+    }
+
+    #tittle h2 {
+        font-size:2em ;
+    }
+ 
+    #hrSixth {
+     flex:25%;
+    }
+ 
+    #hrSixth hr {
+     width:40%;
+     margin-right:60% ;
+     margin-left: 0%;
+    }
+ 
+    .img_first {
+     height: 200px;
+    }
+ 
+    .explanation {
+     width:80%;
+    }   
+    
+    .explanation p {
+     padding-top: 20px;
+     font-size: 1.8em;
+     padding-bottom:30px ;
+    }  
+    
+    /*-----inicia backTwo --------------*/
+
+    .backTwo {
+       margin-top: 50px;
+        height:680px ;
+       background-color: #000;
+       background-image: none;
+    }
+    
+    #hrSeventh hr {
+        width:30%;
+        margin-left:60% ;  
+    }
+    
+    #hrEight hr {
+        width:30%;
+        margin-right:0%;
+         margin-left: 11%;
+    }
+    
+    #tittleTwo h2 {
+        font-size:2em ;
+    }
+    
+    .info {
+        margin-top:-30px ;
+        flex:100%;
+    }
+    
+    .material_img {
+        flex:0%;
+    }
+    
+    .material h2 {
+        font-size:2em ;
+    }
+        
+    .material {
+        width:100%;
+    }
+    
+    .material p {
+        width:80%;
+        font-size: 1.8em;
+        font-weight: bold;
+    }
+        
+    .material button {
+      font-size: 1.6em;
+    } 
+    
+    /*----------inicia backThree-----------*/
+
+    .backThree {
+        margin-top:100px;
+    }
+
+    #hrNineth {
+        flex:20%;
+    }
+
+    #titleThree {
+        width:100%;
+    }
+
+    #tittleThree {
+        flex: 60%;
+    }
+
+    #tittleThree h2 {
+        font-size:2em ;
+    }
+
+    #hrTenth {
+        flex:20%;   
+    }   
+
+    #infoTwo {
+        width:100%;
+    }  
+    
+    /*------------inicia backForth---------*/
+
+    .backForth {
+        margin-top: 60px;
+        width:100%;
+        height:780px;
+    }
+
+    #titleForth {
+        padding-top: 8%;
+        width:80%;
+    }
+
+    #hrEleventh {
+        flex:16%;
+    }
+
+    #hrEleventh hr {
+        width:50%;
+        margin-left:40%;
+    }
+
+    #tittleForth {
+        flex:68%;
+    }
+
+    #hrTwelve {
+        flex:16%;
+    }
+
+    #hrTwelve hr {
+        width:50%;
+        margin-right:0%;
+        margin-left: 10%;
+    }
+
+    #tittleForth h2 {
+        font-size:2em ; 
+    }
+    
+
+    .paragraph {
+        margin-top: -60px;
+    }
+    
+    .paragra {
+        width:90%;
+    }
+
+    .paragra h2 {
+        font-size: 1.8em;
+    }
+    
+    .paragra p {
+      width:90%;
+      font-size: 1.6em;
+    }
+    
+    .personTestimonial {
+        flex:100%;
+        margin-top:0px ;
+    }
+    
+    .person_testimonial {
+        width:100%;
+    }  
+    
+    .person svg {
+        width:90px;
+        height: 90px;
+    } 
+    
+    /*----------form--------*/
+    #hrThirteenth {
+        flex:30%;
+    }
+
+    #tittleFifth {
+        flex:40%;
+    }
+
+    #hrFourteenth {
+        flex:30%;
+    }
+
+    #tittleFifth h2 {
+        font-size:2.2em ; 
+    }    
+
+    input[type=submit] {
+        font-size: 1.8em;
+        margin-left:27%;
+    }  
+    
+    .formu {
+        padding-top: 40px;
+        width:55%;
+    }  
+
+    /*------footer------*/
+
+    footer {
+        margin-top: 250px;
+        width:100%;
+        overflow: hidden;
+    }
+
+    .lgo {
+        flex:20%;
+    }
+
+    .comunity {
+        flex:40%;
+    }
+
+    #comunity h4 {
+        font-size: 1.2em;
+    }
+
+    .references {
+        flex:40%;
+    }
+
+    #references h4 {
+        font-size: 1.2em;
+    }
+
+    .redSocial {
+        flex:100%;
+    }
+
+    #redSocial {
+        padding-top:3%;
+        width:30%;
+        padding-bottom:5% ;
+        margin-left: 70%;
+    }      
+    
+}
+
+@media only screen and (min-width: 400px) and (max-width:499px) {
+
+    html, body {
+        margin:0px;
+        padding:0px;
+        width:100%;
+        height: 100%;
+        overflow-x: hidden;
+    }
+
+    /*-----inicia back------------*/  
+
+    .navHidden {
+        display: flex;
+        height:6% ;
+    }
+
+    .logoHidden {
+        overflow: hidden;
+    }
+
+    .navHambu {
+        overflow: hidden;
+    }
+
+    .container {
+        position: absolute;
+        top:-20px; right: 40px;
+        bottom: 0; left: 0px;
+        overflow: hidden;
+    }
+
+    .back {
+        height: 840px; 
+        background-position: center center;
+        margin-bottom: 120px;
+    }
+
+    .navBar {
+        padding-top: 5px;
+        display: none;
+    }
+     
+    .navFirst {
+        flex:45%;
+    }
+         
+     #navFirst {
+        overflow: hidden;
+         width: 100%;
+    }
+    
+    #hrFirst {
+        flex:30% ;
+    }
+    
+    #navAbout {
+        flex: 40%;
+    }
+    
+   #navAbout a {
+        font-size:1.3em ;
+    }
+        
+    
+    #hrSecond {
+        flex:30% ;
+    }
+     
+    .logo {
+        flex:10%;
+        overflow: hidden;
+    }
+
+    #logo {
+        padding-left:15px ;
+        padding-right: 15px;
+        padding-top:30px ;
+    }
+           
+    .navSecond {
+        flex:45%;
+    }
+     
+    #navSecond {
+        overflow: hidden;
+         width:100%;
+    }
+     
+    #hrThird {
+         flex:30% ;
+    }
+     
+    #hrThird hr {
+        width:70%;
+       margin:0 auto;
+    }
+     
+    #navServices {
+        flex: 40%;
+    }
+    
+    #navServices a {
+        font-size:1.3em ;
+    }
+     
+    #hrForth {
+        flex:30% ; 
+    }
+
+    .cta {
+        margin-top:200px ;
+    }
+
+    #cta {
+        width:90%;
+    }
+
+    #cta h1 {
+        font-size: 5em;
+        color:#fff;
+    }
+
+    #cta p {
+        padding-top:20px ;
+        font-size:1.9em ;
+        padding-bottom:30px ;
+    }
+
+    #red {
+        width:6%;
+        margin-right: 10%;
+    }
+
+    #face svg {
+        width:60px;
+        height: 60px;
+    }
+
+    #ins svg {
+        width:60px;
+        height: 60px;
+    }
+
+    #cta hr {
+        width:40%;
+        border: 3px solid white;
+        margin: 0 auto;
+    }  
+    
+    #cta button {
+        font-size: 1.3em;
+    } 
+    
+    /*------------inicia backUno---------------*/
+
+    #title  {
+        width:100%;
+        overflow: hidden;
+    }
+ 
+    #hrFifth {
+     flex:20% ;
+    }
+ 
+    #hrFifth hr {
+     width:40%;
+     margin-left:60% ;
+    }
+ 
+    #tittle {
+     flex:60%;
+     text-align: center;
+    }
+
+    #tittle h2 {
+        font-size:2em ;
+    }
+ 
+    #hrSixth {
+     flex:20%;
+    }
+ 
+    #hrSixth hr {
+     width:40%;
+     margin-right:60% ;
+     margin-left: 0%;
+    }
+ 
+    .img_first {
+     height: 160px;
+    }
+ 
+    .explanation {
+     width:80%;
+    }   
+    
+    .explanation p {
+     padding-top: 20px;
+     font-size: 1.8em;
+     padding-bottom:30px ;
+    }  
+
+    /*-----inicia backTwo --------------*/
+
+    .backTwo {
+        margin-top: 50px;
+         height:780px ;
+        background-color: #000;
+        background-image: none;
+     }
+
+     #titleTwo {
+         padding-top: 20px;
+     }
+     
+     #hrSeventh hr {
+         width:30%;
+         margin-left:60% ;  
+     }
+     
+     #hrEight hr {
+         width:30%;
+         margin-right:0%;
+          margin-left: 11%;
+     }
+     
+     #tittleTwo h2 {
+         font-size:2em ;
+     }
+     
+     .info {
+         margin-top:-20px ;
+         flex:100%;
+     }
+     
+     .material_img {
+         flex:0%;
+     }
+     
+     .material h2 {
+         font-size:2em ;
+     }
+         
+     .material {
+         width:100%;
+     }
+     
+     .material p {
+         width:80%;
+         font-size: 1.8em;
+         font-weight: bold;
+     }
+         
+     .material button {
+       font-size: 1.6em;
+     } 
+
+    /*----------inicia backThree-----------*/
+
+    .backThree {
+        margin-top:100px;
+    }
+
+    #hrNineth {
+        flex:20%;
+    }
+
+    #titleThree {
+        width:100%;
+    }
+
+    #tittleThree {
+        flex: 60%;
+    }
+
+    #tittleThree h2 {
+        font-size:2em ;
+    }
+
+    #hrTenth {
+        flex:20%;   
+    }   
+
+    #infoTwo {
+        width:100%;
+    } 
+
+    /*------------inicia backForth---------*/
+
+    .backForth {
+        margin-top: 40px;
+        width:100%;
+        height:780px;
+    }
+
+    #titleForth {
+        padding-top: 8%;
+        width:80%;
+    }
+
+    #hrEleventh {
+        flex:16%;
+    }
+
+    #hrEleventh hr {
+        width:50%;
+        margin-left:40%;
+    }
+
+    #tittleForth {
+        flex:68%;
+    }
+
+    #hrTwelve {
+        flex:16%;
+    }
+
+    #hrTwelve hr {
+        width:50%;
+        margin-right:0%;
+        margin-left: 10%;
+    }
+
+    #tittleForth h2 {
+        font-size:2em ; 
+    }
+    
+
+    .paragraph {
+        margin-top: -40px;
+    }
+    
+    .paragra {
+        width:90%;
+    }
+
+    .paragra h2 {
+        font-size: 1.8em;
+    }
+    
+    .paragra p {
+      width:100%;
+      font-size: 1.6em;
+    }
+    
+    .personTestimonial {
+        flex:100%;
+        margin-top:0px ;
+    }
+    
+    .person_testimonial {
+        width:100%;
+    }  
+    
+    .person svg {
+        width:90px;
+        height: 90px;
+    } 
+
+    /*----------form--------*/
+    #hrThirteenth {
+        flex:30%;
+    }
+
+    #tittleFifth {
+        flex:40%;
+    }
+
+    #hrFourteenth {
+        flex:30%;
+    }
+
+    #tittleFifth h2 {
+        font-size:2.2em ; 
+    }    
+
+    input[type=submit] {
+        font-size: 1.6em;
+        margin-left:25%;
+    }  
+    
+    .formu {
+        padding-top: 40px;
+        width:70%;
+    }  
+
+    /*------footer------*/
+
+    footer {
+        margin-top: 200px;
+        width:100%;
+        overflow: hidden;
+    }
+    
+    .lgo {
+        flex:100%;
+    }
+
+    #lgo {
+         margin-left: 5%;
+    }
+    
+    .comunity {
+        flex:50%;
+    }
+
+    #comunity h3 {
+        padding-top: 50px;
+    }
+    
+    #comunity h4 {
+        font-size: 1.2em;
+    }
+    
+    .references {
+        flex:50%;
+    }
+
+    #references h3 {
+        padding-top: 50px;
+    }
+    
+    #references h4 {
+        font-size: 1.2em;
+    }
+    
+    .redSocial {
+        flex:100%;
+    }
+    
+    #redSocial {
+    padding-top:3%;
+    width:40%;
+    padding-bottom:5% ;
+    margin-left: 60%;
+    }
+
+}
+
+@media only screen  and (max-width:399px) {
+    html, body {
+        margin:0px;
+        padding:0px;
+        width:100%;
+        height: 100%;
+        overflow-x: hidden;
+    }
+
+    /*-----inicia back------------*/  
+
+    .navHidden {
+        display: flex;
+        height:6% ;
+    }
+
+    .logoHidden {
+        overflow: hidden;
+    }
+
+    .navHambu {
+        overflow: hidden;
+    }
+
+    .container {
+        position: absolute;
+        top:-20px; right: 20%;
+        bottom: 0; left: 0px;
+        overflow: hidden;
+    }
+
+    .back {
+        height: 840px; 
+        background-position: center center;
+        margin-bottom: 80px;
+    }
+
+    .navBar {
+        padding-top: 5px;
+        display: none;
+    }
+     
+    .navFirst {
+        flex:45%;
+    }
+         
+     #navFirst {
+        overflow: hidden;
+         width: 100%;
+    }
+    
+    #hrFirst {
+        flex:30% ;
+    }
+    
+    #navAbout {
+        flex: 40%;
+    }
+    
+   #navAbout a {
+        font-size:1.3em ;
+    }
+        
+    
+    #hrSecond {
+        flex:30% ;
+    }
+     
+    .logo {
+        flex:10%;
+        overflow: hidden;
+    }
+
+    #logo {
+        padding-left:15px ;
+        padding-right: 15px;
+        padding-top:30px ;
+    }
+           
+    .navSecond {
+        flex:45%;
+    }
+     
+    #navSecond {
+        overflow: hidden;
+         width:100%;
+    }
+     
+    #hrThird {
+         flex:30% ;
+    }
+     
+    #hrThird hr {
+        width:70%;
+       margin:0 auto;
+    }
+     
+    #navServices {
+        flex: 40%;
+    }
+    
+    #navServices a {
+        font-size:1.3em ;
+    }
+     
+    #hrForth {
+        flex:30% ; 
+    }
+
+    .cta {
+        margin-top:180px ;
+    }
+
+    #cta {
+        width:90%;
+    }
+
+    #cta h1 {
+        font-size: 4em;
+        color:#fff;
+    }
+
+    #cta p {
+        padding-top:20px ;
+        font-size:1.6em ;
+        padding-bottom:20px ;
+    }
+
+    #red {
+        width:6%;
+        margin-right: 15%;
+    }
+
+    #face svg {
+        width:50px;
+        height: 50px;
+    }
+
+    #ins svg {
+        width:50px;
+        height:50px;
+    }
+
+    #cta hr {
+        width:50%;
+        border: 3px solid white;
+        margin: 0 auto;
+    }  
+    
+    #cta button {
+        font-size: 1.1em;
+    }
+
+    /*------------inicia backUno---------------*/
+
+    #title  {
+        width:100%;
+        overflow: hidden;
+    }
+ 
+    #hrFifth {
+     flex:0% ;
+     overflow: hidden;
+    }
+ 
+    #hrFifth hr {
+     width:40%;
+     margin-left:60% ;
+    }
+ 
+    #tittle {
+     flex:100%;
+     text-align: center;
+    }
+
+    #tittle h2 {
+        font-size:2em ;
+    }
+ 
+    #hrSixth {
+     flex:0%;
+     overflow: hidden;
+    }
+ 
+    #hrSixth hr {
+     width:40%;
+     margin-right:60% ;
+     margin-left: 0%;
+    }
+ 
+    .img_first {
+     height: 120px;
+    }
+ 
+    .explanation {
+     width:80%;
+     margin:0 auto
+    }   
+    
+    .explanation p {
+     padding-top: 10px;
+     font-size: 1.4em;
+     padding-bottom:30px ;
+     text-align: center;
+    }
+    
+    /*-----inicia backTwo --------------*/
+
+    .backTwo {
+        margin-top: 80px;
+         height:600px ;
+        background-color: #000;
+        background-image: none;
+     }
+
+     #titleTwo {
+         padding-top: 10px;
+     }
+
+     #hrSeventh {
+        flex:0% ;
+        overflow: hidden;
+    }
+
+    #tittleTwo {
+        flex: 100%;
+    }
+
+    #hrEight {
+        flex:0%;
+        overflow: hidden;
+    }
+     
+     #hrSeventh hr {
+         width:30%;
+         margin-left:60% ;  
+     }
+     
+     #hrEight hr {
+         width:30%;
+         margin-right:0%;
+          margin-left: 11%;
+     }
+     
+     #tittleTwo h2 {
+         font-size:2em ;
+     }
+     
+     .info {
+         margin-top:-60px ;
+         flex:100%;
+     }
+     
+     .material_img {
+         flex:0%;
+     }
+     
+     .material h2 {
+         font-size:2em ;
+     }
+         
+     .material {
+         width:100%;
+     }
+     
+     .material p {
+         width:90%;
+         font-size: 1.4em;
+         font-weight: bold;
+         text-align: center;
+     }
+         
+     .material button {
+       font-size: 1.4em;
+     } 
+
+    /*----------inicia backThree-----------*/
+
+    .backThree {
+        margin-top:70px;
+    }
+
+    #hrNineth {
+        flex:0%;
+        overflow: hidden;
+    }
+
+    #titleThree {
+        width:100%;
+    }
+
+    #tittleThree {
+        flex: 100%;
+
+    }
+
+    #tittleThree h2 {
+        font-size:2em ;
+    }
+
+    #hrTenth {
+        flex:0%;  
+        overflow: hidden; 
+    }   
+
+    .infoTwo {
+        padding-top: 60px;
+    }
+
+    #infoTwo {
+        width:80%;
+        
+    } 
+
+    .advan {
+        width:100%;
+    }
+
+    .advan p {
+        font-size: 1em;
+        width:85%;
+    }
+
+    /*------------inicia backForth---------*/
+
+    .backForth {
+        margin-top: 40px;
+        width:100%;
+        height:900px;
+    }
+
+    #titleForth {
+        padding-top: 8%;
+        width:80%;
+    }
+
+    #hrEleventh {
+        flex:0%;
+        overflow: hidden;
+    }
+
+    #tittleForth {
+        flex:100%;
+    }
+
+    #hrTwelve {
+        flex:0%;
+        overflow: hidden;
+    }
+
+
+    #tittleForth h2 {
+        font-size:2em ; 
+    }
+    
+
+    .paragraph {
+        margin-top: -40px;
+    }
+    
+    .paragra {
+        width:90%;
+    }
+
+    .paragra h2 {
+        font-size: 1.8em;
+    }
+    
+    .paragra p {
+      width:100%;
+      font-size: 1.6em;
+    }
+    
+    .personTestimonial {
+        flex:100%;
+        margin-top:0px ;
+    }
+    
+    .person_testimonial {
+        width:100%;
+        margin:0 auto;
+    }  
+    
+    .person svg {
+        width:90px;
+        height: 90px;
+    }   
+    
+    /*----------form--------*/
+    #hrThirteenth {
+        flex:30%;
+    }
+
+    #tittleFifth {
+        flex:40%;
+    }
+
+    #hrFourteenth {
+        flex:30%;
+    }
+
+    #tittleFifth h2 {
+        font-size:2.2em ; 
+    }    
+
+    input[type=submit] {
+        font-size: 1.6em;
+        margin-left:21%;
+    }  
+    
+    .formu {
+        padding-top: 40px;
+        width:80%;
+    }  
+
+    /*------footer------*/
+
+    footer {
+        margin-top: 200px;
+        width:100%;
+        overflow: hidden;
+    }
+        
+    .lgo {
+        flex:100%;
+    }
+    
+    #lgo {
+        margin:0 auto;
+    }
+        
+    .comunity {
+        flex:100%;
+        text-align: center;
+    }
+    
+    #comunity h3 {
+        padding-top: 20px;
+        color:#bd0052;
+    }
+        
+    #comunity h4 {
+        font-size: 1.2em;
+    }
+        
+    .references {
+        flex:100%;
+        text-align: center;
+    }
+    
+    #references h3 {
+        padding-top: 20px;
+        color:#bd0052;
+    }
+        
+    #references h4 {
+        font-size: 1.2em;
+    }
+        
+    .redSocial {
+        flex:100%;
+    }
+        
+    #redSocial {
+      padding-top:3%;
+      width:50%;
+      padding-bottom:10% ;
+      margin:0 auto;
+    }
+
+}
+
+
+
+
+
+
