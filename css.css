@@ -204,6 +204,7 @@
     flex-wrap: wrap;
     flex-direction:row;
     box-shadow: 0px 10px 20px black;
+    background-color: #000;
     margin-bottom: 150px;
     overflow: hidden;
     
@@ -1068,6 +1069,7 @@ footer {
 
 
 
+
 @media only screen and (min-width: 1500px) and (max-width:1640px) {
 
     .logo {
@@ -1163,2520 +1165,1932 @@ footer {
         font-size: 1.8em;
     }
     /*testimoni inicio*/
+    #tittleForth h2 {
+        font-size: 2.4em;
+    }
 
     .paragra p {
         font-size: 2em;
+    }
+
+    /* formulario */
+
+    #tittleFifth h2 {
+        font-size: 2.4em;
+    }
+
+    /* footer */
+    #comunity h4 {
+        font-size: 1.4em;
+    }
+    #references h4 {
+        font-size: 1.4em;
+    }
+    #facebook svg {
+        height: 50px;
+        width:50px;
+    }
+
+    #instagram svg {
+        height: 50px;
+        width:50px;
     }
 
 }
 
 @media only screen and (min-width: 1300px) and (max-width:1399px) {
 
-      /*-----inicia back------------*/
-
-      .navBar {
-        padding-top: 5px;
-     }
- 
-     .navFirst {
-         flex:35%;
-     }
-     
-     #navFirst {
-         overflow: hidden;
-         width: 100%;
-     }
-
-     #hrFirst {
-        flex:46% ;
-    }
-
-    #navAbout {
-        flex: 28%;
-    }
 
     #navAbout a {
-        font-size:1.6em ;
+        font-size: 1.4em;
     }
     
-
-    #hrSecond {
-        flex:26% ;
-    }
- 
-     .logo {
-         flex:20%;
-         overflow: hidden;
-     }
-     
-     .navSecond {
-         flex:35%;
-     }
- 
-     #navSecond {
-         overflow: hidden;
-         width:100%;
-     }
- 
-     #hrThird {
-         flex:22% ;
-     }
- 
-     #hrThird hr {
-         width:85%;
-         margin-right: 15%;
-         border: 2px solid white;
-     }
- 
-     #navServices {
-         flex: 28%;
-     }
-
-     #navServices a {
-        font-size:1.5em ;
-    }
- 
-    #hrForth {
-        flex:50% ; 
+    .navSecond {
+        flex:40%;
     }
 
-    /*----------inicia backTwo -----------------*/
-
-    .info {
-        margin-top:-20px ;
+    #navServices a {
+        font-size: 1.4em;
     }
-    
+
+    #hrThird {
+        flex:24% ;
+    }
+
+    #cta button {
+        font-size: 1.8em;
+    }
+
+    #red svg {
+        width: 60px;
+        height: 60px;
+    }
+    /* backUno */
+ 
+    #hrFifth hr {
+        width: 45%;
+    }
+
+    #hrSixth hr {
+        width: 45%;
+        margin-left: 6%;
+    }
+
+    /*backTow inicio */
+
+    #tittleTwo h2 {
+        font-size: 2.4em;
+    }
+    #hrSeventh hr {
+        margin-left: 68%;
+    }
+
+    #hrEight hr {
+        margin-left: 4%;
+    }
+
+    .material h2 {
+        font-size: 2.4em;
+    }
+
     .material p {
-        width:90%;
+        width: 90%;
+        font-size: 2em;
     }
 
-    /*---------inicia backThree----------*/
-
-    #infoTwo {
-        width:100%;
+    .material button {
+        font-size: 1.8em;
+    }
+    /*testimoni inicio*/
+    #tittleForth h2 {
+        font-size: 2em;
     }
 
-    /*------------inicia backForth---------*/
-    
-    .paragraph {
-        margin-top: 20px;
+    #hrEleventh hr {
+        width: 60%;
     }
 
-    .paragra {
-        width:75%;
+    #hrTwelve hr  {
+        width: 60%;
+        margin-left: 7%;
     }
 
+    .paragra p {
+        font-size: 2em;
+    }
     .personTestimonial {
-        flex:100%;
-        margin-top:0px ;
+        padding-bottom: 70px;
     }
 
     .person_testimonial {
-        width:40%;
+        width: 40%;
+    }
+
+    /* backThree */
+    #tittleThree h2  {
+        font-size: 2em;
+    }
+
+    #hrNineth hr {
+        width: 55%;
+    }
+
+    #hrTenth hr {
+        width: 55%;
+        margin-left: 8%;
+    }
+
+    /* formulario */
+
+    #tittleFifth h2 {
+        font-size: 2.4em;
+    }
+
+    /* footer */
+    #comunity h4 {
+        font-size: 1.4em;
+    }
+    #references h4 {
+        font-size: 1.4em;
+    }
+    #facebook svg {
+        height: 50px;
+        width:50px;
+    }
+
+    #instagram svg {
+        height: 50px;
+        width:50px;
     }
 
 }
 
 @media only screen and (min-width: 1200px) and (max-width:1299px) {
 
-    /*-----inicia back------------*/  
-
-    .navBar {
-        padding-top: 5px;
-    }
-     
-    .navFirst {
-        flex:35%;
-    }
-         
-     #navFirst {
-        overflow: hidden;
-         width: 100%;
+    #navAbout a {
+        font-size: 1.4em;
     }
     
-    #hrFirst {
-        flex:46% ;
-    }
-    
-    #navAbout {
-        flex: 28%;
-    }
-    
-   #navAbout a {
-        font-size:1.4em ;
-    }
-        
-    
-    #hrSecond {
-        flex:26% ;
-    }
-     
-    .logo {
-        flex:20%;
-        overflow: hidden;
-    }
-         
     .navSecond {
-        flex:35%;
+        flex:40%;
     }
-     
-    #navSecond {
-        overflow: hidden;
-         width:100%;
-    }
-     
-    #hrThird {
-         flex:22% ;
-    }
-     
-    #hrThird hr {
-        width:85%;
-        margin-right: 15%;
-        border: 2px solid white;
-    }
-     
-    #navServices {
-        flex: 28%;
-    }
-    
+
     #navServices a {
-        font-size:1.4em ;
-    }
-     
-    #hrForth {
-        flex:50% ; 
+        font-size: 1.4em;
     }
 
-    .cta {
-        margin-top:90px ;
+    #hrThird {
+        flex:24% ;
     }
 
-    #cta h1 {
-        font-size: 6.6em;
-        color:#fff;
+    #cta button {
+        font-size: 1.6em;
     }
 
-    #red {
-        width:6%;
-        margin-right: 2%;
+    #red svg {
+        width: 60px;
+        height: 60px;
     }
-
-    /*------------inicia backUno---------------*/
-
+    /* backUno */
+ 
     #hrFifth hr {
-        width:40%;
-        margin-left:50% ;
+        width: 45%;
     }
 
     #hrSixth hr {
-        width:40%;
-        margin-right:0% ;
-        margin-left: 10%;
+        width: 45%;
+        margin-left: 6%;
     }
 
-    .img_first {
-        height: 550px;
-    }
-    
-    /*-----inicia backTwo --------------*/
+    /*backTow inicio */
 
-    .backTwo {
-        margin-top: 0px;
-        height:900px ;
+    #tittleTwo h2 {
+        font-size: 2.4em;
     }
-
     #hrSeventh hr {
-        width:30%;
-        margin-left:60% ;  
+        margin-left: 68%;
     }
 
     #hrEight hr {
-        width:30%;
-        margin-right:0%;
-        margin-left: 11%;
+        margin-left: 4%;
     }
 
-    .info {
-        margin-top:-10px ;
+    .material h2 {
+        font-size: 2.4em;
     }
-        
+
     .material p {
-        width:95%;
+        width: 90%;
+        font-size: 1.8em;
     }
 
-    /*----------inicia backThree-----------*/
-
-    #hrNineth {
-        flex:26%;
+    .material button {
+        font-size: 1.8em;
+    }
+    /*testimoni inicio*/
+    #tittleForth h2 {
+        font-size: 2em;
     }
 
-    #tittleThree {
-        flex: 48%;
+    #hrEleventh hr {
+        width: 60%;
     }
 
-    #hrTenth {
-        flex:26%;   
+    #hrTwelve hr  {
+        width: 60%;
+        margin-left: 7%;
     }
 
-
-    .backForth {
-        margin-top: 90px;
+    .paragra p {
+        font-size: 1.8em;
+    }
+    .personTestimonial {
+        padding-bottom: 70px;
     }
 
-    #infoTwo {
-        width:95%;
+    .person_testimonial {
+        width: 40%;
     }
 
-   /*------------inicia backForth---------*/
-    
-   .paragraph {
-    margin-top: 20px;
-   }
+    /* backThree */
+    #tittleThree h2  {
+        font-size: 2em;
+    }
 
-   .paragra {
-    width:80%;
-   }
+    #hrNineth hr {
+        width: 55%;
+    }
 
-   .personTestimonial {
-    flex:100%;
-    margin-top:0px ;
-   }
+    #hrTenth hr {
+        width: 55%;
+        margin-left: 8%;
+    }
 
-   .person_testimonial {
-    width:45%;
-   }
+    /* formulario */
+
+    #tittleFifth h2 {
+        font-size: 2.4em;
+    }
+
+    input[type=submit] {
+        margin-left: 33% ;
+    }
+
+    /* footer */
+    #comunity h4 {
+        font-size: 1.4em;
+    }
+    #references h4 {
+        font-size: 1.4em;
+    }
+    #facebook svg {
+        height: 50px;
+        width:50px;
+    }
+
+    #instagram svg {
+        height: 50px;
+        width:50px;
+    }
       
 }
 
 @media only screen and (min-width: 1100px) and (max-width:1199px) {
-
-    /*-----inicia back------------*/  
-
     .back {
-        height: 1000px; 
+        height: auto;
     }
 
     .navBar {
-        padding-top: 5px;
-    }
-     
-    .navFirst {
-        flex:35%;
-    }
-         
-     #navFirst {
-        overflow: hidden;
-         width: 100%;
-    }
-    
-    #hrFirst {
-        flex:46% ;
-    }
-    
-    #navAbout {
-        flex: 28%;
-    }
-    
-   #navAbout a {
-        font-size:1.3em ;
-    }
-        
-    
-    #hrSecond {
-        flex:26% ;
-    }
-     
-    .logo {
-        flex:20%;
-        overflow: hidden;
-    }
-         
-    .navSecond {
-        flex:35%;
-    }
-     
-    #navSecond {
-        overflow: hidden;
-         width:100%;
-    }
-     
-    #hrThird {
-         flex:22% ;
-    }
-     
-    #hrThird hr {
-        width:85%;
-        margin-right: 15%;
-        border: 2px solid white;
-    }
-     
-    #navServices {
-        flex: 28%;
-    }
-    
-    #navServices a {
-        font-size:1.3em ;
-    }
-     
-    #hrForth {
-        flex:50% ; 
+        flex-wrap: nowrap;
     }
 
-    .cta {
-        margin-top:90px ;
+    .navFirst {
+        flex: 47%;
+    }
+
+    .logo {
+        flex: 6%;
+    }
+    .navSecond {
+        flex: 47%;
+    }
+
+    #navServices a,#navAbout a {
+        font-size: 1.4em;   
     }
 
     #cta h1 {
-        font-size: 6.5em;
-        color:#fff;
-    }
-
-    #red {
-        width:6%;
-        margin-right: 2%;
+        font-size: 6em;
     }
 
     #cta hr {
-        width:50%;
-        border: 3px solid white;
-        margin: 0 auto;
+        width: 40%;
     }
 
-   /*------------inicia backUno---------------*/
-
-   #title  {
-       width:90%;
-       overflow: hidden;
-   }
-
-   #hrFifth {
-    flex:35% ;
-   }
-
-   #hrFifth hr {
-    width:40%;
-    margin-left:50% ;
-   }
-
-   #tittle {
-    flex:30%;
-    text-align: center;
-   }
-
-   #hrSixth {
-    flex:35%;
-   }
-
-   #hrSixth hr {
-    width:40%;
-    margin-right:0% ;
-    margin-left: 10%;
-   }
-
-   .img_first {
-    height: 440px;
-   }
-
-   .explanation {
-    width:70%;
-   }
-
-    /*-----inicia backTwo --------------*/
-
-    .backTwo {
-        margin-top: 0px;
-        height:900px ;
+    #cta p {
+        font-weight: 600;
     }
 
+    #cta button {
+        font-size: 1.6em;
+    }
+
+    #red svg {
+        width: 60px;
+        height: 60px;
+    }
+    /* backUno */
+ 
+    #hrFifth hr {
+        width: 45%;
+    }
+
+    #hrSixth hr {
+        width: 45%;
+        margin-left: 6%;
+    }
+
+    .explanation p  {
+        font-size: 1.6em;
+    }
+
+    /*backTow inicio */
+
+    #tittleTwo h2 {
+        font-size: 2.4em;
+    }
     #hrSeventh hr {
-        width:30%;
-        margin-left:60% ;  
+        margin-left: 66%;
     }
 
     #hrEight hr {
-        width:30%;
-        margin-right:0%;
-        margin-left: 11%;
+        margin-left: 6%;
     }
 
-    .info {
-        margin-top:-10px ;
-    }
-        
-    .material {
-       width:90%;
+    .material h2 {
+        font-size: 2.4em;
     }
 
     .material p {
-        width:95%;
+        width: 90%;
+        font-size: 1.6em;
     }
 
-    /*----------inicia backThree-----------*/
-
-    #hrNineth {
-        flex:25%;
+    .material button {
+        font-size: 1.6em;
+    }
+    /*testimoni inicio*/
+    #titleForth {
+        width: 90%;
     }
 
-    #tittleThree {
+    #tittleForth h2 {
+        font-size: 2em;
+    }
+
+    #tittleForth {
         flex: 50%;
     }
-
-    #hrTenth {
-        flex:25%;   
-    }   
-
-    .backForth {
-        margin-top: 90px;
+    #hrEleventh,#hrTwelve {
+        flex: 25%;
     }
 
-    #infoTwo {
-        width:95%;
-    }    
+    #hrEleventh hr {
+        width: 60%;
+        margin-left: 40%;
+    }
+
+    #hrTwelve hr  {
+        width: 60%;
+        margin-left: 0%;
+    }
+
+    .paragra p {
+        width: 80%;
+        font-size: 1.8em;
+    }
+    .personTestimonial {
+        padding-bottom: 70px;
+    }
+
+    .person_testimonial {
+        width: 40%;
+    }
+
+    /* backThree */
+    #tittleThree h2  {
+        font-size: 2em;
+    }
     
-    /*------------inicia backForth---------*/
-    
-   .paragraph {
-    margin-top: 20px;
-   }
 
-   .paragra {
-    width:80%;
-   }
+    #hrNineth hr {
+        width: 55%;
+    }
 
-   .paragra p {
-    width:70%;
-   }
+    #hrTenth hr {
+        width: 55%;
+        margin-left: 8%;
+    }
 
-   .personTestimonial {
-    flex:100%;
-    margin-top:0px ;
-   }
+    /* formulario */
 
-   .person_testimonial {
-    width:50%;
-   }   
+    #tittleFifth h2 {
+        font-size: 2.4em;
+    }
+
+    input[type=submit] {
+        margin-left: 33% ;
+        font-size: 1.6em;
+    }
+
+    /* footer */
+    #comunity h4 {
+        font-size: 1.4em;
+    }
+    #references h4 {
+        font-size: 1.4em;
+    }
+    #facebook svg {
+        height: 50px;
+        width:50px;
+    }
+
+    #instagram svg {
+        height: 50px;
+        width:50px;
+    }   
 
 }
 
 @media only screen and (min-width: 1000px) and (max-width:1099px) {
 
-  /*-----inicia back------------*/  
-
     .back {
-        height: 900px; 
-        background-position: center center;
+        height: auto;
+        background-position:center center ;
+        background-size:100%;
     }
 
     .navBar {
-        padding-top: 5px;
-    }
-     
-    .navFirst {
-        flex:35%;
-    }
-         
-     #navFirst {
-        overflow: hidden;
-         width: 100%;
-    }
-    
-    #hrFirst {
-        flex:44% ;
-    }
-    
-    #navAbout {
-        flex: 30%;
-    }
-    
-   #navAbout a {
-        font-size:1.3em ;
-    }
-        
-    
-    #hrSecond {
-        flex:26% ;
-    }
-     
-    .logo {
-        flex:20%;
-        overflow: hidden;
-    }
-         
-    .navSecond {
-        flex:35%;
-    }
-     
-    #navSecond {
-        overflow: hidden;
-         width:100%;
-    }
-     
-    #hrThird {
-         flex:22% ;
-    }
-     
-    #hrThird hr {
-        width:85%;
-        margin-right: 15%;
-    }
-     
-    #navServices {
-        flex: 34%;
-    }
-    
-    #navServices a {
-        font-size:1.3em ;
-    }
-     
-    #hrForth {
-        flex:44% ; 
+        flex-wrap: nowrap;
     }
 
-    .cta {
-        margin-top:140px ;
+    .navFirst {
+        flex: 47%;
+    }
+
+    .logo {
+        flex: 6%;
+    }
+    .navSecond {
+        flex: 47%;
+    }
+
+    #navServices a,#navAbout a {
+        font-size: 1.4em;   
     }
 
     #cta h1 {
-        font-size: 6.5em;
-        color:#fff;
-    }
-
-    #red {
-        width:6%;
-        margin-right: 2%;
+        font-size: 6em;
     }
 
     #cta hr {
-        width:50%;
-        border: 3px solid white;
-        margin: 0 auto;
-    }  
-    
+        width: 40%;
+    }
+
+    #cta p {
+        font-weight: 600;
+    }
+
     #cta button {
         font-size: 1.6em;
     }
 
-  /*------------inicia backUno---------------*/
-
-   #title  {
-       width:95%;
-       overflow: hidden;
-   }
-
-   #hrFifth {
-    flex:33% ;
-   }
-
-   #hrFifth hr {
-    width:40%;
-    margin-left:50% ;
-   }
-
-   #tittle {
-    flex:34%;
-    text-align: center;
-   }
-
-   #hrSixth {
-    flex:33%;
-   }
-
-   #hrSixth hr {
-    width:40%;
-    margin-right:0% ;
-    margin-left: 10%;
-   }
-
-   .img_first {
-    height: 420px;
-   }
-
-   .explanation {
-    width:80%;
-   }
-   
-    /*-----inicia backTwo --------------*/
-
-    .backTwo {
-        margin-top: 0px;
-        height:900px ;
+    #red svg {
+        width: 50px;
+        height: 50px;
+    }
+    /* backUno */
+ 
+    #hrFifth hr {
+        width: 45%;
     }
 
+    #hrSixth hr {
+        width: 45%;
+        margin-left: 6%;
+    }
+
+    .explanation p  {
+        font-size: 1.6em;
+    }
+
+    /*backTow inicio */
+
+    #tittleTwo h2 {
+        font-size: 2.4em;
+    }
     #hrSeventh hr {
-        width:30%;
-        margin-left:60% ;  
+        margin-left: 66%;
     }
 
     #hrEight hr {
-        width:30%;
-        margin-right:0%;
-        margin-left: 11%;
+        margin-left: 6%;
     }
 
-    .info {
-        margin-top:-10px ;
-    }
-        
-    .material {
-       width:95%;
+    .material h2 {
+        font-size: 2.4em;
     }
 
     .material p {
-        width:95%;
-    }  
-    
-    /*----------inicia backThree-----------*/
-
-    #hrNineth {
-        flex:25%;
+        width: 90%;
+        font-size: 1.6em;
     }
 
-    #tittleThree {
+    .material button {
+        font-size: 1.6em;
+    }
+    /*testimoni inicio*/
+    #titleForth {
+        width: 90%;
+    }
+
+    #tittleForth h2 {
+        font-size: 2em;
+    }
+
+    #tittleForth {
         flex: 50%;
     }
+    #hrEleventh,#hrTwelve {
+        flex: 25%;
+    }
 
-    #hrTenth {
-        flex:25%;   
+    #hrEleventh hr {
+        width: 60%;
+        margin-left: 40%;
+    }
+
+    #hrTwelve hr  {
+        width: 60%;
+        margin-left: 0%;
+    }
+
+    .paragra p {
+        width: 80%;
+        font-size: 1.8em;
+    }
+    .personTestimonial {
+        padding-bottom: 70px;
+    }
+
+    .person_testimonial {
+        width: 40%;
+    }
+
+    /* backThree */
+    #tittleThree h2  {
+        font-size: 2em;
+    }
+    
+
+    #hrNineth hr {
+        width: 55%;
+    }
+
+    #hrTenth hr {
+        width: 55%;
+        margin-left: 8%;
+    }
+
+    /* formulario */
+
+    #tittleFifth h2 {
+        font-size: 2.4em;
+    }
+
+    input[type=submit] {
+        margin-left: 33% ;
+        font-size: 1.6em;
+    }
+
+    /* footer */
+    #comunity h4 {
+        font-size: 1.4em;
+    }
+    #references h4 {
+        font-size: 1.4em;
+    }
+    #facebook svg {
+        height: 50px;
+        width:50px;
+    }
+
+    #instagram svg {
+        height: 50px;
+        width:50px;
     }   
-
-    .backForth {
-        margin-top: 90px;
-    }
-
-    #infoTwo {
-        width:95%;
-    }
-    
-    /*------------inicia backForth---------*/
-    
-   .paragraph {
-    margin-top: 20px;
-   }
-
-   .paragra {
-    width:80%;
-   }
-
-   .paragra p {
-    width:80%;
-   }
-
-   .personTestimonial {
-    flex:100%;
-    margin-top:0px ;
-   }
-
-   .person_testimonial {
-    width:55%;
-   }   
-   
-   /*-----form----*/
-
-   input[type=submit] {
-    font-size: 2em;
-    margin-left:34%;
-}
 }
 
 @media only screen and (min-width: 900px) and (max-width:999px) {
 
-    /*-----inicia back------------*/  
-
     .back {
-        height: 900px; 
-        background-position: center center;
+        height: auto;
+        background-position:center center ;
+        background-size:100%;
     }
 
     .navBar {
-        padding-top: 5px;
-    }
-     
-    .navFirst {
-        flex:35%;
-    }
-         
-     #navFirst {
-        overflow: hidden;
-         width: 100%;
-    }
-    
-    #hrFirst {
-        flex:44% ;
-    }
-    
-    #navAbout {
-        flex: 30%;
-    }
-    
-   #navAbout a {
-        font-size:1.3em ;
-    }
-        
-    
-    #hrSecond {
-        flex:26% ;
-    }
-     
-    .logo {
-        flex:20%;
-        overflow: hidden;
-    }
-         
-    .navSecond {
-        flex:35%;
-    }
-     
-    #navSecond {
-        overflow: hidden;
-         width:100%;
-    }
-     
-    #hrThird {
-         flex:22% ;
-    }
-     
-    #hrThird hr {
-        width:85%;
-        margin-right: 15%;
-    }
-     
-    #navServices {
-        flex: 34%;
-    }
-    
-    #navServices a {
-        font-size:1.3em ;
-    }
-     
-    #hrForth {
-        flex:44% ; 
+        flex-wrap: nowrap;
     }
 
-    .cta {
-        margin-top:140px ;
+    .navFirst {
+        flex: 47%;
+    }
+
+    .logo {
+        flex: 6%;
+    }
+    .navSecond {
+        flex: 47%;
+    }
+
+    #navServices a,#navAbout a {
+        font-size: 1.2em;   
     }
 
     #cta h1 {
-        font-size: 6.4em;
-        color:#fff;
-    }
-
-    #red {
-        width:6%;
-        margin-right: 2%;
-    }
-
-    #face svg {
-        width:60px;
-        height: 60px;
-    }
-
-    #ins svg {
-        width:60px;
-        height: 60px;
+        font-size: 5em;
     }
 
     #cta hr {
-        width:50%;
-        border: 3px solid white;
-        margin: 0 auto;
-    }  
-    
-    #cta button {
-        font-size: 1.5em;
-    }  
-    
-    /*------------inicia backUno---------------*/
-
-   #title  {
-       width:97%;
-       overflow: hidden;
-   }
-
-   #hrFifth {
-    flex:33% ;
-   }
-
-   #hrFifth hr {
-    width:40%;
-    margin-left:50% ;
-   }
-
-   #tittle {
-    flex:34%;
-    text-align: center;
-   }
-
-   #hrSixth {
-    flex:33%;
-   }
-
-   #hrSixth hr {
-    width:40%;
-    margin-right:0% ;
-    margin-left: 10%;
-   }
-
-   .img_first {
-    height: 380px;
-   }
-
-   .explanation {
-    width:80%;
-   }   
-   
-   .explanation p {
-    padding-top: 40px;
-    font-size: 1.8em;
-    padding-bottom:30px ;
-   }
-
-    /*-----inicia backTwo --------------*/
-
-    .backTwo {
-        margin-top: 0px;
-        height:900px ;
+        width: 50%;
     }
 
+    #cta p {
+        font-size: 1.6em;
+        font-weight: 600;
+    }
+
+    #cta button {
+        font-size: 1.4em;
+    }
+
+    #red svg {
+        width: 50px;
+        height: 50px;
+    }
+    /* backUno */
+    #tittle h2  {
+        font-size: 2em;
+    }
+ 
+    #hrFifth hr {
+        width: 45%;
+    }
+
+    #hrSixth hr {
+        width: 45%;
+        margin-left: 6%;
+    }
+
+    .explanation p  {
+        font-size: 1.3em;
+    }
+
+    /*backTow inicio */
+
+    #tittleTwo h2 {
+        font-size: 2em;
+    }
     #hrSeventh hr {
-        width:30%;
-        margin-left:60% ;  
+        margin-left: 66%;
     }
 
     #hrEight hr {
-        width:30%;
-        margin-right:0%;
-        margin-left: 11%;
+        margin-left: 6%;
     }
 
-    .info {
-        margin-top:-10px ;
-        flex:60%;
-    }
-
-    .material_img {
-        flex:40%;
-    }
-        
-    .material {
-       width:95%;
+    .material h2 {
+        font-size: 2.4em;
     }
 
     .material p {
-        width:95%;
-        font-size: 2em;
-        font-weight: bold;
-    }  
-
-    /*----------inicia backThree-----------*/
-
-    #hrNineth {
-        flex:25%;
+        width: 90%;
+        font-size: 1.3em;
     }
 
-    #tittleThree {
-        flex: 50%;
+    .material button {
+        font-size: 1.2em;
     }
-
-    #tittleThree h2 {
-        font-size:2.2em ;
-    }
-
-    #hrTenth {
-        flex:25%;   
-    }   
-
-    .backForth {
-        margin-top: 90px;
-    }
-
-    #infoTwo {
-        width:95%;
-    }
-    
-    /*------------inicia backForth---------*/
-
-    .backForth {
-        margin-top: 80px;
-        width:100%;
-        height:850px;
+    /*testimoni inicio*/
+    .backForth  {
+        background-size: 100%;
+        background-repeat: no-repeat;
     }
 
     #titleForth {
-        padding-top: 6%;
-        width:90%;
-    }
-
-    #hrEleventh {
-        flex:26%;
-    }
-
-    #hrEleventh hr {
-        width:60%;
-        margin-left:30%;
-    }
-
-    #tittleForth {
-        flex:48%;
-    }
-
-    #hrTwelve {
-        flex:26%;
-    }
-
-    #hrTwelve hr {
-        width:60%;
-        margin-right:0%;
-        margin-left: 10%;
+        width: 90%;
     }
 
     #tittleForth h2 {
-        font-size:2em ; 
+        font-size: 2em;
+    }
+
+    #tittleForth {
+        flex: 50%;
+    }
+    #hrEleventh,#hrTwelve {
+        flex: 25%;
+    }
+
+    #hrEleventh hr {
+        width: 60%;
+        margin-left: 40%;
+    }
+
+    #hrTwelve hr  {
+        width: 60%;
+        margin-left: 0%;
+    }
+
+    .paragra p {
+        width: 90%;
+        font-size: 1.6em;
+    }
+    .personTestimonial {
+        padding-bottom: 70px;
+    }
+
+    .person_testimonial {
+        width: 40%;
+    }
+
+    /* backThree */
+    #tittleThree h2  {
+        font-size: 2em;
     }
     
 
-    .paragraph {
-        margin-top: -30px;
+    #hrNineth hr {
+        width: 55%;
     }
-    
-    .paragra {
-        width:80%;
+
+    #hrTenth hr {
+        width: 55%;
+        margin-left: 8%;
     }
-    
-    .paragra p {
-      width:80%;
-      font-size: 2.4em;
+
+    .advan p {
+        width: 80%;
+        font-size: 1.1em;
     }
-    
-    .personTestimonial {
-        flex:100%;
-        margin-top:0px ;
+    .advan button  {
+        font-size: 1em;
     }
-    
-    .person_testimonial {
-        width:58%;
-    }    
-    
-    /*----------form-----*/
+
+    /* formulario */
+
+    #tittleFifth h2 {
+        font-size: 2.4em;
+    }
 
     input[type=submit] {
-        font-size: 2em;
-        margin-left:34%;
+        margin-left: 33% ;
+        font-size: 1.6em;
     }
 
-    /*------footer------*/
-
-    footer {
-        margin-top: 250px;
-        width:100%;
-        overflow: hidden;
-    }
+    /* footer */
 
     .lgo {
-        flex:20%;
-    }
-
-    .comunity {
-        flex:40%;
+        flex:10%;
     }
 
     .references {
         flex:40%;
     }
+    .comunity {
+        flex: 40%;
+    }
 
     .redSocial {
-        flex:100%;
+        flex: 10%;
     }
 
     #redSocial {
-        padding-top:3%;
-        width:20%;
-        padding-bottom:5% ;
-        margin-left: 80%;
+        padding-top: 0%;
+        padding-bottom: 0%;
+        width: 20%;
+        margin-left: 85%;
     }
+    #comunity h4 {
+        font-size: 1.4em;
+    }
+    #references h4 {
+        font-size: 1.4em;
+    }
+    #facebook svg {
+        height: 50px;
+        width:50px;
+    }
+
+    #instagram svg {
+        height: 50px;
+        width:50px;
+    }   
 
 }
 
 @media only screen and (min-width: 800px) and (max-width:899px) {
 
-
-    /*-----inicia back------------*/  
-
+html,body {
+    margin:0px;
+    padding:0px;
+    width: 100%;
+    overflow-x: hidden;
+}
     .back {
-        height: 880px; 
-        background-position: center center;
+        height: 820px;
+        background-position:center center ;
+        background-size:100%;
+        margin-bottom: 130px;
     }
 
     .navBar {
-        padding-top: 5px;
-    }
-     
-    .navFirst {
-        flex:40%;
-    }
-         
-     #navFirst {
-        overflow: hidden;
-         width: 100%;
-    }
-    
-    #hrFirst {
-        flex:44% ;
-    }
-    
-    #navAbout {
-        flex: 30%;
-    }
-    
-   #navAbout a {
-        font-size:1.3em ;
-    }
-        
-    
-    #hrSecond {
-        flex:26% ;
-    }
-     
-    .logo {
-        flex:10%;
-        overflow: hidden;
-    }
-         
-    .navSecond {
-        flex:40%;
-    }
-     
-    #navSecond {
-        overflow: hidden;
-         width:100%;
-    }
-     
-    #hrThird {
-         flex:22% ;
-    }
-     
-    #hrThird hr {
-        width:85%;
-        margin-right: 15%;
-    }
-     
-    #navServices {
-        flex: 34%;
-    }
-    
-    #navServices a {
-        font-size:1.3em ;
-    }
-     
-    #hrForth {
-        flex:44% ; 
+        flex-wrap: nowrap;
     }
 
-    .cta {
-        margin-top:140px ;
+    .navFirst {
+        flex: 47%;
+    }
+
+    .logo {
+        flex: 6%;
+    }
+    .navSecond {
+        flex: 47%;
+    }
+
+    #navServices a,#navAbout a {
+        font-size: 1em;   
     }
 
     #cta h1 {
-        font-size: 6.4em;
-        color:#fff;
-    }
-
-    #red {
-        width:6%;
-        margin-right: 2%;
-    }
-
-    #face svg {
-        width:60px;
-        height: 60px;
-    }
-
-    #ins svg {
-        width:60px;
-        height: 60px;
+        font-size: 5em;
     }
 
     #cta hr {
-        width:50%;
-        border: 3px solid white;
-        margin: 0 auto;
-    }  
-    
-    #cta button {
-        font-size: 1.5em;
-    }  
-    
-    /*------------inicia backUno---------------*/
-
-    #title  {
-        width:100%;
-        overflow: hidden;
+        width: 50%;
     }
- 
-    #hrFifth {
 
-     flex:30% ;
+    #cta p {
+        font-size: 1.6em;
+        font-weight: 600;
+    }
 
+    #cta button {
+        font-size: 1.4em;
+    }
+
+    #red {
+        margin-right: 4px;
+    }
+    #red svg {
+        width: 50px;
+        height: 50px;
+    }
+    /* backUno */
+    #tittle h2  {
+        font-size: 2em;
     }
  
     #hrFifth hr {
-     width:40%;
-     margin-left:50% ;
+        width: 45%;
     }
- 
-    #tittle {
-     flex:40%;
-     text-align: center;
-    }
- 
-    #hrSixth {
-     flex:30%;
-    }
- 
+
     #hrSixth hr {
-     width:40%;
-     margin-right:0% ;
-     margin-left: 10%;
+        width: 45%;
+        margin-left: 6%;
     }
- 
-    .img_first {
-     height: 340px;
-    }
- 
-    .explanation {
-     width:80%;
-    }   
-    
-    .explanation p {
-     padding-top: 40px;
-     font-size: 1.8em;
-     padding-bottom:30px ;
-    } 
-    
-    /*-----inicia backTwo --------------*/
-
-    .backTwo {
-        margin-top: 0px;
-        height:700px ;
-        background-color: #000;
+    .img_first  {
+        width: 80%;
+        padding-bottom: 20px;
     }
 
+    .explanation p  {
+        font-size: 1em;
+        text-align: center;
+    }
+
+    /*backTow inicio */
+    .titleTwo  {
+        padding-bottom: 30px;
+        padding-top: 60px;
+    }
+ 
+    #tittleTwo h2 {
+        font-size: 2em;
+    }
     #hrSeventh hr {
-        width:30%;
-        margin-left:60% ;  
+        margin-left: 66%;
     }
 
     #hrEight hr {
-        width:30%;
-        margin-right:0%;
-        margin-left: 11%;
+        margin-left: 6%;
     }
 
     .info {
-        margin-top:-10px ;
         flex:100%;
     }
-
     .material_img {
-        flex:0%;
+        flex: 100%;
     }
-        
-    .material {
-       width:100%;
+
+    .material h2 {
+        font-size: 2em;
     }
 
     .material p {
-        width:80%;
-        font-size: 2em;
+        width: 80%;
+        font-size: 1em;
         font-weight: bold;
-    }
-    
-    /*----------inicia backThree-----------*/
-
-    .backThree {
-        margin-top:100px;
+        text-align: center;
+        background-color: rgba(0, 0, 0, 0.472);
     }
 
-    #hrNineth {
-        flex:25%;
+    .material button {
+        font-size: 1.2em;
     }
-
-    #tittleThree {
-        flex: 50%;
-    }
-
-    #tittleThree h2 {
-        font-size:2.2em ;
-    }
-
-    #hrTenth {
-        flex:25%;   
-    }   
-
-
-    #infoTwo {
-        width:100%;
-    } 
-    
-    /*------------inicia backForth---------*/
-
-    .backForth {
-        margin-top: 60px;
-        width:100%;
-        height:850px;
+    /*testimoni inicio*/
+    .backForth  {
+        margin-top: 80px;
+        background-size: 100%;
+        background-repeat: no-repeat;
     }
 
     #titleForth {
-        padding-top: 8%;
-        width:100%;
-    }
-
-    #hrEleventh {
-        flex:26%;
-    }
-
-    #hrEleventh hr {
-        width:50%;
-        margin-left:40%;
-    }
-
-    #tittleForth {
-        flex:48%;
-    }
-
-    #hrTwelve {
-        flex:26%;
-    }
-
-    #hrTwelve hr {
-        width:50%;
-        margin-right:0%;
-        margin-left: 10%;
+        width: 90%;
     }
 
     #tittleForth h2 {
-        font-size:2em ; 
+        font-size: 1.8em;
+    }
+
+    #tittleForth {
+        flex: 50%;
+    }
+    #hrEleventh,#hrTwelve {
+        flex: 25%;
+    }
+
+    #hrEleventh hr {
+        width: 60%;
+        margin-left: 40%;
+    }
+
+    #hrTwelve hr  {
+        width: 60%;
+        margin-left: 0%;
+    }
+    .paragra h2 {
+        font-size: 1.8em;
+    }
+
+    .paragra p {
+        width: 90%;
+        font-size: 1em;
+    }
+
+    .personTestimonial {
+        padding-bottom: 70px;
+    }
+
+    .person_testimonial {
+        width: 40%;
+    }
+
+    .people {
+        font-size: 0.8em;
+    }
+
+    /* backThree */
+    .backThree {
+        margin-top: 120px;
+    }
+
+    #tittleThree h2  {
+        font-size: 2em;
     }
     
 
-    .paragraph {
-        margin-top: -30px;
+    #hrNineth hr {
+        width: 55%;
     }
-    
-    .paragra {
-        width:80%;
+
+    #hrTenth hr {
+        width: 55%;
+        margin-left: 8%;
     }
-    
-    .paragra p {
-      width:85%;
-      font-size: 2.4em;
+
+    .advan p {
+        width: 80%;
+        font-size: 1.1em;
     }
-    
-    .personTestimonial {
-        flex:100%;
-        margin-top:0px ;
+    .advan button  {
+        font-size: 1em;
     }
-    
-    .person_testimonial {
-        width:65%;
-    }  
-    
-    /*----------form--------*/
+
+    /* formulario */
+
+    #tittleFifth h2 {
+        font-size: 2.4em;
+    }
 
     input[type=submit] {
-        font-size: 2em;
-        margin-left:34%;
+        margin-left: 28% ;
+        font-size: 1.6em;
+    }
+    label {
+        font-size: 1.4em;
     }
 
-    /*------footer------*/
-
-    footer {
-        margin-top: 250px;
-        width:100%;
-        overflow: hidden;
-    }
+    /* footer */
 
     .lgo {
-        flex:20%;
-    }
-
-    .comunity {
-        flex:40%;
+        flex:100%;
     }
 
     .references {
-        flex:40%;
+        flex:100%;
+        text-align: center;
+    }
+    .comunity {
+        flex: 100%;
+        text-align: center;
     }
 
     .redSocial {
-        flex:100%;
+        flex: 100%;
+        padding-top: 30px;
+        padding-bottom: 30px;
     }
 
     #redSocial {
-        padding-top:3%;
-        width:20%;
-        padding-bottom:5% ;
-        margin-left: 80%;
-    }    
+        padding-top: 0%;
+        padding-bottom: 0%;
+        width: 40%;
+        text-align: center;
+        margin:0 auto;
+    }
+
+    #comunity h3 {
+        padding-top: 20px;
+    }
+
+    #references h3 {
+        padding-top: 10px;
+    }
+   
+    #comunity h4 {
+        font-size: 1.2em;
+    }
+    #references h4 {
+        font-size: 1.2em;
+    }
+    #facebook svg {
+        height: 50px;
+        width:50px;
+    }
+
+    #instagram svg {
+        height: 50px;
+        width:50px;
+    }   
+
 }
 
 
 @media only screen and (min-width: 700px) and (max-width:799px) {
    
-    /*-----inicia back------------*/  
-
-    .back {
-        height: 860px; 
-        background-position: center center;
+    html,body {
+        margin:0px;
+        padding:0px;
+        width: 100%;
+        overflow-x: hidden;
     }
-
-    .navBar {
-        padding-top: 5px;
-    }
+        .back {
+            height: 820px;
+            background-position:center center ;
+            background-size:100%;
+            margin-bottom: 130px;
+        }
+    
+        .navHidden {
+            display: flex;
+        }
+    
+        .container {
+            position: absolute;
+            top:-20px; right: -180px;
+            bottom: 0; left: 0px;
+            overflow: hidden;
+        }
+    
+        .back {
+            height: 840px; 
+            background-position: center center;
+            margin-bottom: 120px;
+            background-repeat: no-repeat;
+        }
+    
+        .navBar {
+            padding-top: 5px;
+            display: none;
+        }
+    
+    
+        #cta h1 {
+            font-size: 5em;
+        }
+    
+        #cta hr {
+            width: 50%;
+        }
+    
+        #cta p {
+            font-size: 1.6em;
+            font-weight: 600;
+        }
+    
+        #cta button {
+            font-size: 1.4em;
+        }
+    
+        #red {
+            margin-right: 12px;
+        }
+        #red svg {
+            width: 50px;
+            height: 50px;
+        }
+        /* backUno */
+        #tittle h2  {
+            font-size: 2em;
+        }
      
-    .navFirst {
-        flex:45%;
-    }
-         
-     #navFirst {
-        overflow: hidden;
-         width: 100%;
-    }
+        #hrFifth hr {
+            width: 45%;
+        }
     
-    #hrFirst {
-        flex:30% ;
-    }
+        #hrSixth hr {
+            width: 45%;
+            margin-left: 6%;
+        }
+        .img_first  {
+            width: 80%;
+            padding-bottom: 20px;
+        }
     
-    #navAbout {
-        flex: 40%;
-    }
+        .explanation p  {
+            font-size: 1em;
+            text-align: center;
+        }
     
-   #navAbout a {
-        font-size:1.3em ;
-    }
+        /*backTow inicio */
+        .titleTwo  {
+            padding-bottom: 30px;
+            padding-top: 60px;
+        }
+     
+        #tittleTwo h2 {
+            font-size: 2em;
+        }
+        #hrSeventh hr {
+            margin-left: 66%;
+        }
+    
+        #hrEight hr {
+            margin-left: 6%;
+        }
+    
+        .info {
+            flex:100%;
+        }
+        .material_img {
+            flex: 100%;
+        }
+    
+        .material h2 {
+            font-size: 2em;
+        }
+    
+        .material p {
+            width: 80%;
+            font-size: 1em;
+            font-weight: bold;
+            text-align: center;
+            background-color: rgba(0, 0, 0, 0.472);
+        }
+    
+        .material button {
+            font-size: 1.2em;
+        }
+        /*testimoni inicio*/
+        .backForth  {
+            margin-top: 80px;
+            background-size: 100%;
+            background-repeat: no-repeat;
+        }
+    
+        #titleForth {
+            width: 90%;
+        }
+    
+        #tittleForth h2 {
+            font-size: 1.8em;
+        }
+    
+        #tittleForth {
+            flex: 50%;
+        }
+        #hrEleventh,#hrTwelve {
+            flex: 25%;
+        }
+    
+        #hrEleventh hr {
+            width: 60%;
+            margin-left: 40%;
+        }
+    
+        #hrTwelve hr  {
+            width: 60%;
+            margin-left: 0%;
+        }
+        .paragra h2 {
+            font-size: 1.8em;
+        }
+    
+        .paragra p {
+            width: 90%;
+            font-size: 1em;
+        }
+    
+        .personTestimonial {
+            padding-bottom: 70px;
+        }
+    
+        .person_testimonial {
+            width: 40%;
+        }
+    
+        .people {
+            font-size: 0.8em;
+        }
+    
+        /* backThree */
+        .backThree {
+            margin-top: 120px;
+        }
+    
+        #tittleThree h2  {
+            font-size: 2em;
+        }
         
     
-    #hrSecond {
-        flex:30% ;
-    }
-     
-    .logo {
-        flex:10%;
-        overflow: hidden;
-    }
-
-    #logo {
-        padding-left:15px ;
-        padding-right: 15px;
-        padding-top:30px ;
-    }
-           
-    .navSecond {
-        flex:45%;
-    }
-     
-    #navSecond {
-        overflow: hidden;
-         width:100%;
-    }
-     
-    #hrThird {
-         flex:30% ;
-    }
-     
-    #hrThird hr {
-        width:70%;
-       margin:0 auto;
-    }
-     
-    #navServices {
-        flex: 40%;
-    }
+        #hrNineth hr {
+            width: 55%;
+        }
     
-    #navServices a {
-        font-size:1.3em ;
-    }
-     
-    #hrForth {
-        flex:30% ; 
-    }
-
-    .cta {
-        margin-top:140px ;
-    }
-
-    #cta h1 {
-        font-size: 5.8em;
-        color:#fff;
-    }
-
-    #cta p {
-        padding-top:20px ;
-        font-size:2em ;
-        padding-bottom:30px ;
-    }
-
-    #red {
-        width:6%;
-        margin-right: 4%;
-    }
-
-    #face svg {
-        width:60px;
-        height: 60px;
-    }
-
-    #ins svg {
-        width:60px;
-        height: 60px;
-    }
-
-    #cta hr {
-        width:50%;
-        border: 3px solid white;
-        margin: 0 auto;
-    }  
+        #hrTenth hr {
+            width: 55%;
+            margin-left: 8%;
+        }
     
-    #cta button {
-        font-size: 1.5em;
-    }  
+        .advan p {
+            width: 80%;
+            font-size: 1.1em;
+        }
+        .advan button  {
+            font-size: 1em;
+        }
     
-    /*------------inicia backUno---------------*/
-
-    #title  {
-        width:100%;
-        overflow: hidden;
-    }
- 
-    #hrFifth {
-     flex:25% ;
-    }
- 
-    #hrFifth hr {
-     width:40%;
-     margin-left:60% ;
-    }
- 
-    #tittle {
-     flex:50%;
-     text-align: center;
-    }
- 
-    #hrSixth {
-     flex:25%;
-    }
- 
-    #hrSixth hr {
-     width:40%;
-     margin-right:60% ;
-     margin-left: 0%;
-    }
- 
-    .img_first {
-     height: 340px;
-    }
- 
-    .explanation {
-     width:80%;
-    }   
+        /* formulario */
     
-    .explanation p {
-     padding-top: 40px;
-     font-size: 1.8em;
-     padding-bottom:30px ;
-    }    
+        #tittleFifth h2 {
+            font-size: 2.4em;
+        }
     
-    /*-----inicia backTwo --------------*/
-
-    .backTwo {
-        margin-top: 0px;
-        height:650px ;
-        background-color: #000;
-    }
-
-    #hrSeventh hr {
-        width:30%;
-        margin-left:60% ;  
-    }
-
-    #hrEight hr {
-        width:30%;
-        margin-right:0%;
-        margin-left: 11%;
-    }
-
-    #tittleTwo h2 {
-        font-size:2em ;
-    }
-
-    .info {
-        margin-top:-30px ;
-        flex:100%;
-    }
-
-    .material_img {
-        flex:0%;
-    }
-
-    .material h2 {
-        font-size:2em ;
-    }
+        input[type=submit] {
+            margin-left: 28% ;
+            font-size: 1.6em;
+        }
+        label {
+            font-size: 1.4em;
+        }
     
-    .material {
-       width:100%;
-    }
-
-    .material p {
-        width:80%;
-        font-size: 1.8em;
-        font-weight: bold;
-    }
+        /* footer */
     
-    .material button {
-        font-size: 1.8em;
-    }
-
-    /*----------inicia backThree-----------*/
-
-    .backThree {
-        margin-top:100px;
-    }
-
-    #hrNineth {
-        flex:20%;
-    }
-
-    #tittleThree {
-        flex: 60%;
-    }
-
-    #tittleThree h2 {
-        font-size:2em ;
-    }
-
-    #hrTenth {
-        flex:20%;   
-    }   
-
-    #infoTwo {
-        width:100%;
-    }   
+        .lgo {
+            flex:100%;
+        }
     
-    /*------------inicia backForth---------*/
-
-    .backForth {
-        margin-top: 60px;
-        width:100%;
-        height:750px;
-    }
-
-    #titleForth {
-        padding-top: 8%;
-        width:80%;
-    }
-
-    #hrEleventh {
-        flex:16%;
-    }
-
-    #hrEleventh hr {
-        width:50%;
-        margin-left:40%;
-    }
-
-    #tittleForth {
-        flex:68%;
-    }
-
-    #hrTwelve {
-        flex:16%;
-    }
-
-    #hrTwelve hr {
-        width:50%;
-        margin-right:0%;
-        margin-left: 10%;
-    }
-
-    #tittleForth h2 {
-        font-size:2em ; 
-    }
+        .references {
+            flex:100%;
+            text-align: center;
+        }
+        .comunity {
+            flex: 100%;
+            text-align: center;
+        }
     
-
-    .paragraph {
-        margin-top: -60px;
-    }
+        .redSocial {
+            flex: 100%;
+            padding-top: 30px;
+            padding-bottom: 30px;
+        }
     
-    .paragra {
-        width:80%;
-    }
+        #redSocial {
+            padding-top: 0%;
+            padding-bottom: 0%;
+            width: 40%;
+            text-align: center;
+            margin:0 auto;
+        }
     
-    .paragra p {
-      width:90%;
-      font-size: 2em;
-    }
+        #comunity h3 {
+            padding-top: 20px;
+        }
     
-    .personTestimonial {
-        flex:100%;
-        margin-top:0px ;
-    }
+        #references h3 {
+            padding-top: 10px;
+        }
+       
+        #comunity h4 {
+            font-size: 1.2em;
+        }
+        #references h4 {
+            font-size: 1.2em;
+        }
+        #facebook svg {
+            height: 50px;
+            width:50px;
+        }
     
-    .person_testimonial {
-        width:80%;
-    }  
-    
-    .person svg {
-        width:90px;
-        height: 90px;
-    }
-
-    /*----------form--------*/
-    #hrThirteenth {
-        flex:30%;
-    }
-
-    #tittleFifth {
-        flex:40%;
-    }
-
-    #hrFourteenth {
-        flex:30%;
-    }
-
-    #tittleFifth h2 {
-        font-size:2.2em ; 
-    }    
-
-    input[type=submit] {
-        font-size: 2em;
-        margin-left:32%;
-    }  
-    
-    .formu {
-        padding-top: 40px;
-        width:55%;
-    }
-
-    /*------footer------*/
-
-    footer {
-        margin-top: 250px;
-        width:100%;
-        overflow: hidden;
-    }
-
-    .lgo {
-        flex:20%;
-    }
-
-    .comunity {
-        flex:40%;
-    }
-
-    .references {
-        flex:40%;
-    }
-
-    .redSocial {
-        flex:100%;
-    }
-
-    #redSocial {
-        padding-top:3%;
-        width:20%;
-        padding-bottom:5% ;
-        margin-left: 80%;
-    }      
+        #instagram svg {
+            height: 50px;
+            width:50px;
+        }   
+        
 }
 
 @media only screen and (min-width: 600px) and (max-width:699px) {
  
-    /*-----inicia back------------*/  
-
-    .navHidden {
-        display: flex;
+    html,body {
+        margin:0px;
+        padding:0px;
+        width: 100%;
+        overflow-x: hidden;
     }
-
-    .container {
-        position: absolute;
-        top:-20px; right: -110px;
-        bottom: 0; left: 0px;
-        overflow: hidden;
-    }
-
-    .back {
-        height: 840px; 
-        background-position: center center;
-        margin-bottom: 120px;
-    }
-
-    .navBar {
-        padding-top: 5px;
-        display: none;
-    }
-     
-    .navFirst {
-        flex:45%;
-    }
-         
-     #navFirst {
-        overflow: hidden;
-         width: 100%;
-    }
-    
-    #hrFirst {
-        flex:30% ;
-    }
-    
-    #navAbout {
-        flex: 40%;
-    }
-    
-   #navAbout a {
-        font-size:1.3em ;
-    }
-        
-    
-    #hrSecond {
-        flex:30% ;
-    }
-     
-    .logo {
-        flex:10%;
-        overflow: hidden;
-    }
-
-    #logo {
-        padding-left:15px ;
-        padding-right: 15px;
-        padding-top:30px ;
-    }
-           
-    .navSecond {
-        flex:45%;
-    }
-     
-    #navSecond {
-        overflow: hidden;
-         width:100%;
-    }
-     
-    #hrThird {
-         flex:30% ;
-    }
-     
-    #hrThird hr {
-        width:70%;
-       margin:0 auto;
-    }
-     
-    #navServices {
-        flex: 40%;
-    }
-    
-    #navServices a {
-        font-size:1.3em ;
-    }
-     
-    #hrForth {
-        flex:30% ; 
-    }
-
-    .cta {
-        margin-top:140px ;
-    }
-
-    #cta h1 {
-        font-size: 5em;
-        color:#fff;
-        width: 60%;
-    }
-
-    #cta p {
-        padding-top:20px ;
-        font-size:2em ;
-        padding-bottom:30px ;
-    }
-
-    #red {
-        width:6%;
-        margin-right: 6%;
-    }
-
-    #face svg {
-        width:60px;
-        height: 60px;
-    }
-
-    #ins svg {
-        width:60px;
-        height: 60px;
-    }
-
-    #cta hr {
-        width:60%;
-        border: 3px solid white;
-        margin: 0 auto;
-    }  
-    
-    #cta button {
-        font-size: 1.3em;
-    }  
-    
-    /*------------inicia backUno---------------*/
-
-    #title  {
-        width:100%;
-        overflow: hidden;
-    }
- 
-    #hrFifth {
-     flex:25% ;
-    }
- 
-    #hrFifth hr {
-     width:40%;
-     margin-left:60% ;
-    }
- 
-    #tittle {
-     flex:50%;
-     text-align: center;
-    }
- 
-    #hrSixth {
-     flex:25%;
-    }
- 
-    #hrSixth hr {
-     width:40%;
-     margin-right:60% ;
-     margin-left: 0%;
-    }
- 
-    .img_first {
-     height: 270px;
-    }
- 
-    .explanation {
-     width:90%;
-    }   
-    
-    .explanation p {
-     padding-top: 40px;
-     font-size: 1.8em;
-     padding-bottom:30px ;
-    }  
-
-        /*-----inicia backTwo --------------*/
-
-        .backTwo {
-            margin-top: 0px;
-            height:650px ;
-            background-color: #000;
-            background-image: none;
+        .back {
+            height: 800px;
+            background-position:center center ;
+            background-size:100%;
+            margin-bottom: 130px;
         }
     
+        .navHidden {
+            display: flex;
+        }
+    
+        .container {
+            position: absolute;
+            top:-20px; right: -120px;
+            bottom: 0; left: 0px;
+            overflow: hidden;
+        }
+    
+        .back {
+            height: 840px; 
+            background-position: center center;
+            margin-bottom: 120px;
+            background-repeat: no-repeat;
+        }
+    
+        .navBar {
+            padding-top: 5px;
+            display: none;
+        }
+    
+    
+        #cta h1 {
+            font-size: 5em;
+        }
+    
+        #cta hr {
+            width: 80%;
+        }
+    
+        #cta p {
+            font-size: 1.6em;
+            font-weight: 600;
+        }
+    
+        #cta button {
+            font-size: 1em;
+        }
+    
+        #red {
+            margin-right: 12px;
+        }
+        #red svg {
+            width: 50px;
+            height: 50px;
+        }
+        /* backUno */
+        #tittle h2  {
+            font-size: 2em;
+        }
+     
+        #hrFifth hr {
+            width: 45%;
+        }
+    
+        #hrSixth hr {
+            width: 45%;
+            margin-left: 6%;
+        }
+        .img_first  {
+            width: 80%;
+            padding-bottom: 20px;
+        }
+    
+        .explanation p  {
+            font-size: 1em;
+            text-align: center;
+        }
+    
+        /*backTow inicio */
+        .titleTwo  {
+            padding-bottom: 30px;
+            padding-top: 60px;
+        }
+     
+        #tittleTwo h2 {
+            font-size: 2em;
+        }
         #hrSeventh hr {
-            width:30%;
-            margin-left:60% ;  
+            margin-left: 66%;
         }
     
         #hrEight hr {
-            width:30%;
-            margin-right:0%;
-            margin-left: 11%;
-        }
-    
-        #tittleTwo h2 {
-            font-size:2em ;
+            margin-left: 6%;
         }
     
         .info {
-            margin-top:-30px ;
             flex:100%;
         }
-    
         .material_img {
-            flex:0%;
+            flex: 100%;
         }
     
         .material h2 {
-            font-size:2em ;
-        }
-        
-        .material {
-           width:100%;
+            font-size: 2em;
         }
     
         .material p {
-            width:93%;
-            font-size: 1.8em;
+            width: 80%;
+            font-size: 1em;
             font-weight: bold;
+            text-align: center;
+            background-color: rgba(0, 0, 0, 0.472);
+        }
+    
+        .material button {
+            font-size: 1.2em;
+        }
+        /*testimoni inicio*/
+        .backForth  {
+            margin-top: 80px;
+            background-size: 100%;
+            background-repeat: no-repeat;
+        }
+    
+        #titleForth {
+            width: 90%;
+        }
+    
+        #tittleForth h2 {
+            font-size: 1.8em;
+        }
+    
+        #tittleForth {
+            flex: 50%;
+        }
+        #hrEleventh,#hrTwelve {
+            flex: 25%;
+        }
+    
+        #hrEleventh hr {
+            width: 60%;
+            margin-left: 40%;
+        }
+    
+        #hrTwelve hr  {
+            width: 60%;
+            margin-left: 0%;
+        }
+        .paragra h2 {
+            font-size: 1.8em;
+        }
+    
+        .paragra p {
+            width: 90%;
+            font-size: 1em;
+        }
+    
+        .personTestimonial {
+            padding-bottom: 70px;
+        }
+    
+        .person_testimonial {
+            width: 40%;
+        }
+    
+        .people {
+            font-size: 0.8em;
+        }
+    
+        /* backThree */
+        .backThree {
+            margin-top: 120px;
+        }
+    
+        #tittleThree h2  {
+            font-size: 2em;
         }
         
-        .material button {
-            font-size: 1.8em;
+    
+        #hrNineth hr {
+            width: 55%;
         }
-
-    /*----------inicia backThree-----------*/
-
-    .backThree {
-        margin-top:100px;
-    }
-
-    #hrNineth {
-        flex:20%;
-    }
-
-    #tittleThree {
-        flex: 60%;
-    }
-
-    #tittleThree h2 {
-        font-size:2em ;
-    }
-
-    #hrTenth {
-        flex:20%;   
-    }   
-
-    #infoTwo {
-        width:100%;
-    }  
-
-
-    /*------------inicia backForth---------*/
-
-    .backForth {
-        margin-top: 60px;
-        width:100%;
-        height:780px;
-    }
-
-    #titleForth {
-        padding-top: 8%;
-        width:80%;
-    }
-
-    #hrEleventh {
-        flex:16%;
-    }
-
-    #hrEleventh hr {
-        width:50%;
-        margin-left:40%;
-    }
-
-    #tittleForth {
-        flex:68%;
-    }
-
-    #hrTwelve {
-        flex:16%;
-    }
-
-    #hrTwelve hr {
-        width:50%;
-        margin-right:0%;
-        margin-left: 10%;
-    }
-
-    #tittleForth h2 {
-        font-size:2em ; 
-    }
     
-
-    .paragraph {
-        margin-top: -60px;
-    }
+        #hrTenth hr {
+            width: 55%;
+            margin-left: 8%;
+        }
     
-    .paragra {
-        width:90%;
-    }
+        .advan p {
+            width: 80%;
+            font-size: 1em;
+        }
+        .advan button  {
+            font-size: 1em;
+        }
     
-    .paragra p {
-      width:90%;
-      font-size: 2em;
-    }
+        /* formulario */
     
-    .personTestimonial {
-        flex:100%;
-        margin-top:0px ;
-    }
+        #tittleFifth h2 {
+            font-size: 2.4em;
+        }
     
-    .person_testimonial {
-        width:85%;
-    }  
+        input[type=submit] {
+            margin-left: 24% ;
+            font-size: 1.2em;
+        }
+        label {
+            font-size: 1.4em;
+        }
     
-    .person svg {
-        width:90px;
-        height: 90px;
-    }    
-
-    /*----------form--------*/
-    #hrThirteenth {
-        flex:30%;
-    }
-
-    #tittleFifth {
-        flex:40%;
-    }
-
-    #hrFourteenth {
-        flex:30%;
-    }
-
-    #tittleFifth h2 {
-        font-size:2.2em ; 
-    }    
-
-    input[type=submit] {
-        font-size: 1.8em;
-        margin-left:31%;
-    }  
+        /* footer */
     
-    .formu {
-        padding-top: 40px;
-        width:55%;
-    }  
+        .lgo {
+            flex:100%;
+        }
     
-    /*------footer------*/
-
-    footer {
-        margin-top: 250px;
-        width:100%;
-        overflow: hidden;
-    }
-
-    .lgo {
-        flex:20%;
-    }
-
-    .comunity {
-        flex:40%;
-    }
-
-    .references {
-        flex:40%;
-    }
-
-    .redSocial {
-        flex:100%;
-    }
-
-    #redSocial {
-        padding-top:3%;
-        width:30%;
-        padding-bottom:5% ;
-        margin-left: 70%;
-    }      
+        .references {
+            flex:100%;
+            text-align: center;
+        }
+        .comunity {
+            flex: 100%;
+            text-align: center;
+        }
+    
+        .redSocial {
+            flex: 100%;
+            padding-top: 30px;
+            padding-bottom: 30px;
+        }
+    
+        #redSocial {
+            padding-top: 0%;
+            padding-bottom: 0%;
+            width: 40%;
+            text-align: center;
+            margin:0 auto;
+        }
+    
+        #comunity h3 {
+            padding-top: 20px;
+        }
+    
+        #references h3 {
+            padding-top: 10px;
+        }
+       
+        #comunity h4 {
+            font-size: 1.2em;
+        }
+        #references h4 {
+            font-size: 1.2em;
+        }
+        #facebook svg {
+            height: 50px;
+            width:50px;
+        }
+    
+        #instagram svg {
+            height: 50px;
+            width:50px;
+        }        
     
 }
 
 @media only screen and (min-width: 500px) and (max-width:599px) {
-    /*-----inicia back------------*/  
-
-    .navHidden {
-        display: flex;
+    html,body {
+        margin:0px;
+        padding:0px;
+        width: 100%;
+        overflow-x: hidden;
     }
-
-    .container {
-        position: absolute;
-        top:-20px; right: -40px;
-        bottom: 0; left: 0px;
-        overflow: hidden;
-    }
-
-    .back {
-        height: 840px; 
-        background-position: center center;
-        margin-bottom: 120px;
-    }
-
-    .navBar {
-        padding-top: 5px;
-        display: none;
-    }
+        .back {
+            height: 800px;
+            background-position:center center ;
+            background-size:100%;
+            margin-bottom: 130px;
+        }
+    
+        .navHidden {
+            display: flex;
+        }
+    
+        .container {
+            position: absolute;
+            top:-20px; right: -20px;
+            bottom: 0; left: 0px;
+            overflow: hidden;
+        }
+    
+        .back {
+            height: 840px; 
+            background-position: center center;
+            margin-bottom: 120px;
+            background-repeat: no-repeat;
+        }
+    
+        .navBar {
+            padding-top: 5px;
+            display: none;
+        }
+    
+    
+        #cta h1 {
+            font-size: 4em;
+        }
+    
+        #cta hr {
+            width: 80%;
+        }
+    
+        #cta p {
+            font-size: 1.6em;
+            font-weight: 600;
+        }
+    
+        #cta button {
+            font-size: 1em;
+        }
+    
+        #red {
+            margin-right: 30px;
+        }
+        #red svg {
+            width: 50px;
+            height: 50px;
+        }
+        /* backUno */
+        #tittle h2  {
+            font-size: 2em;
+        }
      
-    .navFirst {
-        flex:45%;
-    }
-         
-     #navFirst {
-        overflow: hidden;
-         width: 100%;
-    }
+        #hrFifth hr {
+            width: 45%;
+        }
     
-    #hrFirst {
-        flex:30% ;
-    }
+        #hrSixth hr {
+            width: 45%;
+            margin-left: 6%;
+        }
+        .img_first  {
+            width: 80%;
+            padding-bottom: 20px;
+        }
     
-    #navAbout {
-        flex: 40%;
-    }
+        .explanation p  {
+            font-size: 1em;
+            text-align: center;
+        }
     
-   #navAbout a {
-        font-size:1.3em ;
-    }
+        /*backTow inicio */
+        .titleTwo  {
+            padding-bottom: 30px;
+            padding-top: 60px;
+        }
+     
+        #tittleTwo h2 {
+            font-size: 2em;
+        }
+        #hrSeventh hr {
+            margin-left: 66%;
+        }
+    
+        #hrEight hr {
+            margin-left: 6%;
+        }
+    
+        .info {
+            flex:100%;
+        }
+        .material_img {
+            flex: 100%;
+        }
+    
+        .material h2 {
+            font-size: 2em;
+        }
+    
+        .material p {
+            width: 80%;
+            font-size: 1em;
+            font-weight: bold;
+            text-align: center;
+            background-color: rgba(0, 0, 0, 0.472);
+        }
+    
+        .material button {
+            font-size: 1.2em;
+        }
+        /*testimoni inicio*/
+        .backForth  {
+            margin-top: 80px;
+            background-size: 100%;
+            background-repeat: no-repeat;
+        }
+    
+        #titleForth {
+            width: 90%;
+        }
+    
+        #tittleForth h2 {
+            font-size: 1.4em;
+        }
+    
+        #tittleForth {
+            flex: 50%;
+        }
+        #hrEleventh,#hrTwelve {
+            flex: 25%;
+        }
+    
+        #hrEleventh hr {
+            width: 60%;
+            margin-left: 40%;
+        }
+    
+        #hrTwelve hr  {
+            width: 60%;
+            margin-left: 0%;
+        }
+        .paragra h2 {
+            font-size: 1.4em;
+        }
+    
+        .paragra p {
+            width: 90%;
+            font-size: 1em;
+        }
+    
+        .personTestimonial {
+            padding-bottom: 70px;
+            width: 80%;
+        }
+    
+        .person_testimonial {
+            width: 40%;
+        }
+        .person svg {
+            width: 80px;
+            height: 80px;
+        }
+    
+        .people {
+            font-size: 0.8em;
+        }
+    
+        /* backThree */
+        .backThree {
+            margin-top: 120px;
+        }
+    
+        #tittleThree h2  {
+            font-size: 2em;
+        }
         
     
-    #hrSecond {
-        flex:30% ;
-    }
-     
-    .logo {
-        flex:10%;
-        overflow: hidden;
-    }
-
-    #logo {
-        padding-left:15px ;
-        padding-right: 15px;
-        padding-top:30px ;
-    }
-           
-    .navSecond {
-        flex:45%;
-    }
-     
-    #navSecond {
-        overflow: hidden;
-         width:100%;
-    }
-     
-    #hrThird {
-         flex:30% ;
-    }
-     
-    #hrThird hr {
-        width:70%;
-       margin:0 auto;
-    }
-     
-    #navServices {
-        flex: 40%;
-    }
+        #hrNineth hr {
+            width: 55%;
+        }
     
-    #navServices a {
-        font-size:1.3em ;
-    }
-     
-    #hrForth {
-        flex:30% ; 
-    }
-
-    .cta {
-        margin-top:140px ;
-    }
-
-    #cta {
-        width:90%;
-    }
-
-    #cta h1 {
-        font-size: 5em;
-        color:#fff;
-    }
-
-    #cta p {
-        padding-top:20px ;
-        font-size:1.9em ;
-        padding-bottom:30px ;
-    }
-
-    #red {
-        width:6%;
-        margin-right: 8%;
-    }
-
-    #face svg {
-        width:60px;
-        height: 60px;
-    }
-
-    #ins svg {
-        width:60px;
-        height: 60px;
-    }
-
-    #cta hr {
-        width:40%;
-        border: 3px solid white;
-        margin: 0 auto;
-    }  
+        #hrTenth hr {
+            width: 55%;
+            margin-left: 8%;
+        }
     
-    #cta button {
-        font-size: 1.3em;
-    }  
-
-    /*------------inicia backUno---------------*/
-
-    #title  {
-        width:100%;
-        overflow: hidden;
-    }
- 
-    #hrFifth {
-     flex:25% ;
-    }
- 
-    #hrFifth hr {
-     width:40%;
-     margin-left:60% ;
-    }
- 
-    #tittle {
-     flex:50%;
-     text-align: center;
-    }
-
-    #tittle h2 {
-        font-size:2em ;
-    }
- 
-    #hrSixth {
-     flex:25%;
-    }
- 
-    #hrSixth hr {
-     width:40%;
-     margin-right:60% ;
-     margin-left: 0%;
-    }
- 
-    .img_first {
-     height: 200px;
-    }
- 
-    .explanation {
-     width:80%;
-    }   
+        .advan p {
+            width: 80%;
+            font-size: 1em;
+        }
+        .advan button  {
+            font-size: 1em;
+        }
     
-    .explanation p {
-     padding-top: 20px;
-     font-size: 1.8em;
-     padding-bottom:30px ;
-    }  
+        /* formulario */
     
-    /*-----inicia backTwo --------------*/
-
-    .backTwo {
-       margin-top: 50px;
-        height:680px ;
-       background-color: #000;
-       background-image: none;
-    }
+        #tittleFifth h2 {
+            font-size: 2.4em;
+        }
     
-    #hrSeventh hr {
-        width:30%;
-        margin-left:60% ;  
-    }
+        input[type=submit] {
+            margin-left: 24% ;
+            font-size: 1.2em;
+        }
+        label {
+            font-size: 1.4em;
+        }
     
-    #hrEight hr {
-        width:30%;
-        margin-right:0%;
-         margin-left: 11%;
-    }
+        /* footer */
     
-    #tittleTwo h2 {
-        font-size:2em ;
-    }
+        .lgo {
+            flex:100%;
+        }
     
-    .info {
-        margin-top:-30px ;
-        flex:100%;
-    }
+        .references {
+            flex:100%;
+            text-align: center;
+        }
+        .comunity {
+            flex: 100%;
+            text-align: center;
+        }
     
-    .material_img {
-        flex:0%;
-    }
+        .redSocial {
+            flex: 100%;
+            padding-top: 30px;
+            padding-bottom: 30px;
+        }
     
-    .material h2 {
-        font-size:2em ;
-    }
-        
-    .material {
-        width:100%;
-    }
+        #redSocial {
+            padding-top: 0%;
+            padding-bottom: 0%;
+            width: 40%;
+            text-align: center;
+            margin:0 auto;
+        }
     
-    .material p {
-        width:80%;
-        font-size: 1.8em;
-        font-weight: bold;
-    }
-        
-    .material button {
-      font-size: 1.6em;
-    } 
+        #comunity h3 {
+            padding-top: 20px;
+            font-size: 1.4em;
+        }
     
-    /*----------inicia backThree-----------*/
-
-    .backThree {
-        margin-top:100px;
-    }
-
-    #hrNineth {
-        flex:20%;
-    }
-
-    #titleThree {
-        width:100%;
-    }
-
-    #tittleThree {
-        flex: 60%;
-    }
-
-    #tittleThree h2 {
-        font-size:2em ;
-    }
-
-    #hrTenth {
-        flex:20%;   
-    }   
-
-    #infoTwo {
-        width:100%;
-    }  
+        #references h3 {
+            padding-top: 10px;
+            font-size: 1.4em;
+        }
+       
+        #comunity h4 {
+            font-size: 1.2em;
+        }
+        #references h4 {
+            font-size: 1.2em;
+        }
+        #facebook svg {
+            height: 50px;
+            width:50px;
+        }
     
-    /*------------inicia backForth---------*/
-
-    .backForth {
-        margin-top: 60px;
-        width:100%;
-        height:780px;
-    }
-
-    #titleForth {
-        padding-top: 8%;
-        width:80%;
-    }
-
-    #hrEleventh {
-        flex:16%;
-    }
-
-    #hrEleventh hr {
-        width:50%;
-        margin-left:40%;
-    }
-
-    #tittleForth {
-        flex:68%;
-    }
-
-    #hrTwelve {
-        flex:16%;
-    }
-
-    #hrTwelve hr {
-        width:50%;
-        margin-right:0%;
-        margin-left: 10%;
-    }
-
-    #tittleForth h2 {
-        font-size:2em ; 
-    }
-    
-
-    .paragraph {
-        margin-top: -60px;
-    }
-    
-    .paragra {
-        width:90%;
-    }
-
-    .paragra h2 {
-        font-size: 1.8em;
-    }
-    
-    .paragra p {
-      width:90%;
-      font-size: 1.6em;
-    }
-    
-    .personTestimonial {
-        flex:100%;
-        margin-top:0px ;
-    }
-    
-    .person_testimonial {
-        width:100%;
-    }  
-    
-    .person svg {
-        width:90px;
-        height: 90px;
-    } 
-    
-    /*----------form--------*/
-    #hrThirteenth {
-        flex:30%;
-    }
-
-    #tittleFifth {
-        flex:40%;
-    }
-
-    #hrFourteenth {
-        flex:30%;
-    }
-
-    #tittleFifth h2 {
-        font-size:2.2em ; 
-    }    
-
-    input[type=submit] {
-        font-size: 1.8em;
-        margin-left:27%;
-    }  
-    
-    .formu {
-        padding-top: 40px;
-        width:55%;
-    }  
-
-    /*------footer------*/
-
-    footer {
-        margin-top: 250px;
-        width:100%;
-        overflow: hidden;
-    }
-
-    .lgo {
-        flex:20%;
-    }
-
-    .comunity {
-        flex:40%;
-    }
-
-    #comunity h4 {
-        font-size: 1.2em;
-    }
-
-    .references {
-        flex:40%;
-    }
-
-    #references h4 {
-        font-size: 1.2em;
-    }
-
-    .redSocial {
-        flex:100%;
-    }
-
-    #redSocial {
-        padding-top:3%;
-        width:30%;
-        padding-bottom:5% ;
-        margin-left: 70%;
-    }      
+        #instagram svg {
+            height: 50px;
+            width:50px;
+        }        
     
 }
 
