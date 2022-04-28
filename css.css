@@ -45,6 +45,7 @@
 	width: 360px;
 	height: 320px;
     display: block;
+    margin: 0 ;
 }
 
 .container {
@@ -407,17 +408,24 @@
     height:350px ;
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
     overflow: hidden;
     justify-content: flex-end;
 }
 
 #red {
   width:6%;
+  height: 50%;
+  display: grid;
+  justify-content: center;
+  text-align: center;
+  grid-template-columns: 100%;
 }
 
+
 #red svg {
-    width:70px;
-    height: 70px;
+    width:50px;
+    height: 50px;
     cursor: pointer;
 }
 
@@ -490,10 +498,12 @@
 #img__first {
     width:75%;
     margin:0 auto;
+    text-align: center;
 }
 
 #img__first img {
     width:100%;
+    max-width: 1100px;
 }
 
 .expla {
@@ -902,11 +912,14 @@ form {
 input[type=text], input[type=tel], input[type=email] {
     width: 100%;
     padding: 14px;
+    padding-left: 0;
     border: none;
     border-bottom: 6px solid #bd0052;
     box-sizing: border-box;
     margin-top: 12px;
     margin-bottom: 18px;
+    outline: none;
+    font-size: 100%;
 }
 
 label {
@@ -922,6 +935,7 @@ textarea {
     margin-top: 12px;
     margin-bottom: 50px;
     resize: none;
+    outline: none;
 }
 
 input[type=submit] {
@@ -1061,11 +1075,19 @@ footer {
    stroke:#bd0052;
 }
 
+#facebook svg, #instagram svg{
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+
 .copy {
     flex:100%;
-    padding: 10px;
     text-align: center;
     background-color: #fff;
+    font-weight: 700;
+    padding-top: 16px;
+    padding-bottom: 16px;
 }
 
 
@@ -1087,8 +1109,8 @@ footer {
 
 
     #red svg {
-        width: 60px;
-        height: 60px;
+        width: 50px;
+        height: 50px;
     }
 
     /*backTow inicio */
@@ -1143,8 +1165,8 @@ footer {
     }
 
     #red svg {
-        width: 60px;
-        height: 60px;
+        width: 50px;
+        height: 50px;
     }
 
     /*backTow inicio */
@@ -1223,8 +1245,8 @@ footer {
     }
 
     #red svg {
-        width: 60px;
-        height: 60px;
+        width: 50px;
+        height: 50px;
     }
     /* backUno */
  
@@ -1349,8 +1371,8 @@ footer {
     }
 
     #red svg {
-        width: 60px;
-        height: 60px;
+        width: 50px;
+        height: 50px;
     }
     /* backUno */
  
@@ -1497,8 +1519,8 @@ footer {
     }
 
     #red svg {
-        width: 60px;
-        height: 60px;
+        width: 50px;
+        height: 50px;
     }
     /* backUno */
  
@@ -2843,7 +2865,7 @@ html,body {
     
         .container {
             position: absolute;
-            top:-20px; right: -20px;
+            top:-20px; right: -60px;
             bottom: 0; left: 0px;
             overflow: hidden;
         }
@@ -3136,7 +3158,7 @@ html,body {
 
         .container {
             position: absolute;
-            top:-20px; right: 40px;
+            top:-20px; right: 20px;
             bottom: 0; left: 0px;
             overflow: hidden;
         }
