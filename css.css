@@ -690,11 +690,13 @@
   width:90%;
   justify-content: space-evenly;
   margin:0 auto;
+  text-align: center;
   
 }
 
 .advan {
-    width:400px;
+    width:100%;
+    max-width: 400px;
     height: 500px;
     text-align: center;
 }
