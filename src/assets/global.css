@@ -1,0 +1,18 @@
+@import '/node_modules/normalize.css/normalize.css';
+@import url('./style/section.css');
+
+* {
+  font-family: 'Times New Roman', Times, serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --background: black;
+  --Pink: #bd0052;
+}
+
+body {
+  background-color: var(--background);
+}
