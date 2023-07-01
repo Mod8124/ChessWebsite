@@ -1,5 +1,15 @@
 @import '/node_modules/normalize.css/normalize.css';
 @import url('./style/section.css');
+@import url('./style/title.css');
+@import url('./style/nav.css');
+@import url('./style/hero.css');
+@import url('./style/about.css');
+@import url('./style/aboutTwo.css');
+@import url('./style/services.css');
+@import url('./style/card.css');
+@import url('./style/testimonial.css');
+@import url('./style/formulary.css');
+@import url('./style/footer.css');
 
 * {
   font-family: 'Times New Roman', Times, serif;
@@ -13,6 +23,16 @@
   --Pink: #bd0052;
 }
 
-body {
-  background-color: var(--background);
+body::-webkit-scrollbar {
+  width: 15px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: var(--Pink);
+  border-radius: 10px;
+  border: 3px solid black;
+}
+
+body::-webkit-scrollbar-track {
+  background-color: black;
 }

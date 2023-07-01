@@ -1,0 +1,32 @@
+.aboutTwo {
+  width: 70%;
+  height: 70%;
+}
+
+.aboutTwo__about {
+  display: grid;
+  width: 100%;
+  height: 100%;
+  grid-template-columns: 100%;
+  text-align: center;
+}
+
+.aboutTwo__material {
+  color: white;
+}
+
+.aboutTwo__title {
+  font-size: 2.4em;
+  padding-top: 60px;
+}
+
+.aboutTwo__para {
+  font-size: 2em;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.aboutTwo__img {
+  height: 100%;
+  width: 100%;
+}

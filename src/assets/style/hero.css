@@ -1,14 +1,79 @@
-.section {
-  background-image: url('img/back1.jpg');
-  background-attachment: fixed;
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat;
-  height: 100vh;
-  width: 100%;
+.cta {
+  height: 60%;
+  position: relative;
   display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  box-shadow: 0px 10px 20px var(--background);
-  background-color: var(--background);
+  align-items: center;
+  justify-content: center;
+}
+
+.cta__container {
+  width: 90%;
+  max-width: 500px;
+  text-align: center;
+}
+
+.cta__title {
+  font-size: 7em;
+  margin: 0;
+  color: white;
+}
+
+.cta__line {
+  height: 5px;
+  width: 54%;
+  margin: 0 auto;
+  background-color: white;
+}
+
+.cta__para {
+  color: white;
+  font-size: 2em;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+.btn {
+  background-color: var(--Pink);
+  border: none;
+  padding: 10px 30px;
+  color: white;
+  font-size: 1.8em;
+  border: 2px solid transparent;
+  transition: all 0.5s ease-in-out;
+}
+
+.btn:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: var(--Pink);
+  border: 2px solid var(--Pink);
+}
+
+.red {
+  height: 26%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.red__container {
+  width: auto;
+  display: flex;
+  height: auto;
+  flex-direction: column;
+  align-items: center;
+  padding-right: 2%;
+  row-gap: 1em;
+}
+
+.red__social svg {
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+}
+
+.red__social--facebook svg:hover {
+  stroke: var(--Pink);
+}
+
+.red__social__instagram svg:hover {
+  fill: var(--Pink);
 }

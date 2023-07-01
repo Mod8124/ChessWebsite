@@ -1,0 +1,56 @@
+.footer {
+  background-color: black;
+  padding-top: 80px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  color: white;
+}
+
+.footer__logo {
+  flex: 100%;
+  max-width: 250px;
+}
+
+.footer__imgContainer {
+  max-width: 34px;
+}
+
+.footer__img {
+  width: 100%;
+  height: 100%;
+}
+
+.footer__links {
+  flex: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  max-width: 250px;
+  row-gap: 30px;
+}
+
+.footer__links h3 {
+  color: var(--Pink);
+  font-size: 1.8em;
+}
+
+.footer__links h4 {
+  font-size: 1.2em;
+}
+
+.copy {
+  background-color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  flex: 100%;
+  margin-top: 60px;
+}
+
+.redSocial {
+}
+
+.redSocial__container {
+  background-color: red;
+}

@@ -1,20 +1,25 @@
 import './assets/global.css';
-import { HeroSection } from './assets/sections/Hero.ts';
-import { AboutSection } from './assets/sections/About.ts';
-import { AboutTwoSection } from './assets/sections/AboutTwo.ts';
-import { ServicesSection } from './assets/sections/services.ts';
-import { TestimonialSection } from './assets/sections/testimonial.ts';
-import { FormularySection } from './assets/sections/Formulary.ts';
-import { FooterSection } from './assets/sections/Footer.ts';
+import { HeroSection } from './sections/Hero.ts';
+import { AboutSection } from './sections/About.ts';
+import { AboutTwoSection } from './sections/AboutTwo.ts';
+import { ServiceSection } from './sections/Service.ts';
+import { TestimonialSection } from './sections/Testimonial.ts';
+import { FormularySection } from './sections/Formulary.ts';
+import { FooterSection } from './sections/Footer.ts';
+import { setupSlider } from './utils/slider.ts';
+import { handleAnimation } from './utils/handleAnimation.ts';
 
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
-  <main>
+  <main class="container">
     ${HeroSection()}
     ${AboutSection()}
     ${AboutTwoSection()}
-    ${ServicesSection()}
+    ${ServiceSection()}
     ${TestimonialSection()}
     ${FormularySection()}
     ${FooterSection()}
   </main>
 `;
+
+setupSlider(document.querySelector<HTMLDivElement>('.testimonial')!);
+handleAnimation();

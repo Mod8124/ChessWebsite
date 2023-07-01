@@ -1,7 +1,9 @@
 import logo from '../../public/img/logo80pngx117.png';
 
-export const NavBar = () => `
+export const NavComponent = () => `
+  <header class="nav">
      <article class="navHidden">
+
             <div class="logoHidden">
                <div id="logoHidden"><img src="${logo}" alt="logo"></div>
             </div>
@@ -27,28 +29,29 @@ export const NavBar = () => `
             </div>
          </article>
 
-        <div class="navBar"><!--inicia navBar-->
+        <article class="navBar"><!--inicia navBar-->
 
-          <div class="navFirst">
-            <div id="navFirst">
-               <div id="hrFirst"><hr></div>
-                 <div id="navAbout"><nav><a href="#">ABOUT</a></nav></div>
-               <div id="hrSecond"><hr></div>
-            </div>
-          </div>
+        <div class="title title--nav">
+             <div class="title__container title__container--left">
+                <div class="title__ln"><hr class="title__line title__line--nav"></div>
+                   <nav class="title__lk"><a class="title__link" href="#">About</a></nav>
+                <div  class="title__ln"><hr class="title__line title__line--nav"></div>
+             </div>
+        </div>
 
           <div class="logo">
-             <div id="logo"><img src="img/logo80pngx117.png" alt="logo">
+             <div class="logo__container"><img src="img/logo80pngx117.png" alt="logo">
              </div>
           </div>
 
-          <div class="navSecond">
-             <div id="navSecond">
-                 <div id="hrThird"><hr></div>
-                   <div id="navServices"><nav><a href="#">SERVICES</a></nav></div>
-                 <div id="hrForth"><hr></div>
+          <div class="title title--nav">
+             <div class="title__container title__container--right">
+                <div class="title__ln"><hr class="title__line title__line--nav"></div>
+                    <nav class="title__lk"><a class="title__link" href="#">Services</a></nav>
+                <div  class="title__ln"><hr class="title__line title__line--nav"></div>
              </div>
-          </div>
+        </div>
 
-        </div><!--termina navBar-->
+        </article><!--termina navBar-->
+      </header>
 `;
