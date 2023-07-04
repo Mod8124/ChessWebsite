@@ -4,10 +4,6 @@ export const handleLoadAnimation = () => {
   const div = document.createElement('div');
   div.classList.add('square__container');
 
-  const squareSize = 100;
-  const screenWidth = window.innerWidth;
-  const screenHeight = window.innerHeight;
-
   const numCols = 8;
   const numRows = 8;
 

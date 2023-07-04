@@ -13,7 +13,7 @@
 }
 
 .cta__title {
-  font-size: 7em;
+  font-size: 4em;
   margin: 0;
   color: white;
   opacity: 0;
@@ -21,7 +21,7 @@
 
 .cta__line {
   height: 5px;
-  width: 54%;
+  width: 50%;
   margin: 0 auto;
   background-color: white;
   opacity: 0;
@@ -29,7 +29,7 @@
 
 .cta__para {
   color: white;
-  font-size: 2em;
+  font-size: 1.6em;
   padding-bottom: 20px;
   padding-top: 20px;
   opacity: 0;
@@ -40,7 +40,7 @@
   border: none;
   padding: 10px 30px;
   color: white;
-  font-size: 1.8em;
+  font-size: 1.2em;
   border: 2px solid transparent;
 }
 
@@ -83,4 +83,22 @@
 
 .red__social__instagram svg:hover {
   fill: var(--Pink);
+}
+
+@media screen and (min-width: 1024px) {
+  .cta__title {
+    font-size: 7em;
+  }
+
+  .cta__line {
+    width: 54%;
+  }
+
+  .cta__para {
+    font-size: 2em;
+  }
+
+  .btn {
+    font-size: 1.8em;
+  }
 }

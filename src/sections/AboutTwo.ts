@@ -10,7 +10,8 @@ export const AboutTwoSection = (): string => `
             <div class="aboutTwo__about">
                <div class="aboutTwo__material">
                   <h2 class="aboutTwo__title">Material</h2> 
-                    <p class="aboutTwo__para">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
+                    <p class="aboutTwo__para">Explore our curated collection of chess resources at the Chess Hub. From strategy guides to books, videos, and puzzles, we provide valuable tools to enhance your skills and deepen your understanding of the game. Elevate your chess journey with our diverse materials. </p>
+                                              
                   <button class="btn">See More</button>
               </div>
 

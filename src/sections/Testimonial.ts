@@ -12,17 +12,17 @@ export const TestimonialSection = () => `
 
              <div class="paragra">
                 <h2 class="paragra__title">Such as amazing result</h2>
-                <p class="paragra__para">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
+                <p class="paragra__para">This Chess Hub has transformed my chess experience. The tutorials are incredibly insightful, the online matches are exhilarating, and the community is supportive. It has truly taken my game to new heights.</p>
              </div>
 
              <div class="paragra">
                <h2 class="paragra__title">I didn't hope that</h2>
-               <p  class="paragra__para">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
+               <p  class="paragra__para">I've found the best place to learn chess effectively. The tutorials are easy to follow, the puzzle challenges are fantastic, and the community is welcoming. This Chess Hub offers unparalleled learning resources. </p>
             </div>
 
             <div class="paragra">
                <h2 class="paragra__title">Wow just wow</h2>
-               <p  class="paragra__para">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
+               <p  class="paragra__para">I've been playing chess for years, and this Chess Hub has brought my passion to life. The online matches are intense, and the community tournaments are fantastic. I highly recommend this platform </p>
             </div>
 
           </div>

@@ -11,8 +11,7 @@ export const ServiceSection = () => `
                ${TitleComponent('LEGENDARY MOVE', true)}
 
                <p class="services__para">
-                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum dicta doloribus atque consequatur perferendis, labore, ea tempora sapiente numquam, libero quis. Obcaecati qui veniam debitis incidunt, fugiat praesentium maxime facilis.
-			            Delectus voluptatibus debitis praesentium sed. Rerum perspiciatis excepturi accusantium maiores consectetur, molestiae quis ipsam!
+                    At our Chess Hub, we offer a diverse range of high-quality materials to support your chess journey. From comprehensive tutorials to in-depth strategy guides, we provide the resources you need to sharpen your skills. 
                </p>
               
               </div>

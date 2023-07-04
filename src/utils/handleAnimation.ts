@@ -11,6 +11,7 @@ export const handleAnimation = () => {
   const containerMobile = document.querySelector<HTMLElement>('.containerMobile');
 
   panels.forEach((panel, index) => {
+    const screenWidth = window.innerWidth;
     gsap.fromTo(
       panel,
       {
@@ -22,9 +23,8 @@ export const handleAnimation = () => {
           trigger: panel,
           start: () => (panel.offsetHeight < window.innerHeight ? 'top' : 'bottom bottom'),
           end: '+=300%',
-          pin: true,
+          pin: screenWidth < 1024 && index === 2 ? false : true,
           pinSpacing: false,
-          snap: 1 / (panels.length - 1),
         },
       },
     );

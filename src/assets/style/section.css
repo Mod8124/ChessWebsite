@@ -34,8 +34,10 @@
 }
 
 .section--services {
-  height: 190vh;
+  height: auto;
   display: flex;
+  background-color: black;
+  flex-direction: column;
 }
 
 .section--testimonial {
@@ -52,4 +54,13 @@
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
+}
+
+@media screen and (min-width: 1024px) {
+  .section--services {
+    height: 190vh;
+    display: flex;
+    background-color: black;
+    flex-direction: initial;
+  }
 }

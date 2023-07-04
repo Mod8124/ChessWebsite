@@ -1,6 +1,5 @@
 .aboutTwo {
-  width: 70%;
-  height: 70%;
+  width: 90%;
 }
 
 .aboutTwo__about {
@@ -17,17 +16,35 @@
 }
 
 .aboutTwo__title {
-  font-size: 2.4em;
-  padding-top: 60px;
+  font-size: 2em;
+  padding-top: 30px;
 }
 
 .aboutTwo__para {
-  font-size: 2em;
-  padding-top: 40px;
+  font-size: 1.6em;
+  padding-top: 20px;
   padding-bottom: 40px;
+  text-align: center;
 }
 
 .aboutTwo__img {
   height: 100%;
   width: 100%;
+}
+
+@media screen and (min-width: 1024px) {
+  .aboutTwo {
+    width: 70%;
+    height: 70%;
+  }
+  .aboutTwo__title {
+    font-size: 2.4em;
+    padding-top: 60px;
+  }
+
+  .aboutTwo__para {
+    font-size: 2em;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
 }

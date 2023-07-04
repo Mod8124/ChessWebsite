@@ -9,7 +9,7 @@ export const AboutSection = () => `
 
             <article class="about__explanation">
                <div class="about__container">
-                  <p class="about__para">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
+                  <p class="about__para">Welcome to our Chess Hub! We are passionate about promoting the game of chess and providing a platform for chess enthusiasts of all levels. Whether you're a beginner or an experienced player, our mission is to foster your growth, enhance your skills, and create a vibrant chess community.</p>
                </div>
             </article>
 
