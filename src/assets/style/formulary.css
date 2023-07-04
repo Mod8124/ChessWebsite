@@ -1,3 +1,11 @@
+.formulary {
+  width: 90%;
+}
+
+.form {
+  width: 100%;
+}
+
 .form__form {
   width: 90%;
   max-width: 1100px;
@@ -5,9 +13,14 @@
   padding-top: 20px;
 }
 
+.form__forms {
+  width: 100%;
+}
+
 .form__label {
   margin-top: 20px;
   font-size: 2em;
+  width: 100%;
 }
 
 .form__input {

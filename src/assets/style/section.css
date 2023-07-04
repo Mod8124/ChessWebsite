@@ -5,6 +5,8 @@
 }
 
 .section--hero {
+  height: 100vh;
+  width: 100%;
   background-image: url('img/back1.jpg');
   background-attachment: fixed;
   background-size: contain;
@@ -20,7 +22,7 @@
   justify-content: center;
 }
 
-.section__aboutTwo {
+.section--aboutTwo {
   box-shadow: -10px -10px 30px black;
   background-color: black;
   background-image: url('img/back3.jpg');

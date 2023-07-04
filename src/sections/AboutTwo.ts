@@ -1,7 +1,7 @@
 import { TitleComponent } from '../components/Title';
 
 export const AboutTwoSection = (): string => `
-  <section class="section section__aboutTwo">
+  <section class="section section--aboutTwo">
 
           <article class="aboutTwo">
 

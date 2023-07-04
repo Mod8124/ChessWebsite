@@ -13,6 +13,7 @@
 
 .aboutTwo__material {
   color: white;
+  opacity: 0;
 }
 
 .aboutTwo__title {

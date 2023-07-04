@@ -2,7 +2,7 @@ import { NavComponent } from '../components/Nav';
 
 export const HeroSection = () => ` 
 
-   <section class="section section--hero">
+   <section class="section--hero">
 
         ${NavComponent()}
 

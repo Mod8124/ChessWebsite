@@ -2,34 +2,36 @@ import logo from '../../public/img/logo80pngx117.png';
 
 export const NavComponent = () => `
   <header class="nav">
-     <article class="navHidden">
+
+     <article class="navHidden"><!-- nav mobile -->
 
             <div class="logoHidden">
-               <div id="logoHidden"><img src="${logo}" alt="logo"></div>
+               <div class="logoHidden__container"><img class="logoHidden__img" src="${logo}" alt="logo"></div>
             </div>
 
             <div class="navHambu">
-               <div class="device"><!--inicia menu hambu-->
-                  <div class="container">
-                      <button id="burger" class="open-main-nav">
-                          <span class="burger"></span>
-                      </button>
-                      <nav class="main-nav" id="main-nav">
+      
+                  <div class="containerMobile">
+
+                      <div class="burger"></div>
+
+                      <nav class="nav__menu">
                           <ul>
                               <li>
-                                  <a href="html.html">ABOUT</a>
+                                  <a href="#">ABOUT</a>
                               </li>
                               <li>
-                                  <a href="servicios.html">SERVICES</a>
+                                  <a href="#s">SERVICES</a>
                               </li> 
                           </ul>
                       </nav>
-                  </div>
-                  </div><!--termian menu hambu-->
-            </div>
-         </article>
 
-        <article class="navBar"><!--inicia navBar-->
+                  </div>
+            </div>
+
+         </article> <!-- nav mobile -->
+
+        <article class="navBar">
 
         <div class="title title--nav">
              <div class="title__container title__container--left">
@@ -52,6 +54,6 @@ export const NavComponent = () => `
              </div>
         </div>
 
-        </article><!--termina navBar-->
+        </article>
       </header>
 `;
