@@ -9,8 +9,7 @@ const text: { [key: string]: string } = {
     'Join our vibrant chess community and take part in exciting tournaments. Compete against fellow enthusiasts, showcase your skills, and experience the camaraderie of the chess community.',
 };
 
-const getImg = (img: string) =>
-  new URL('../../public/img/icons/icon-' + img + '.svg', import.meta.url).href;
+const getImg = (img: string) => new URL('/img/icons/icon-' + img + '.svg', import.meta.url).href;
 
 export const CardComponent = (type: string): string => {
   return `
