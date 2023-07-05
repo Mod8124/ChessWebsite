@@ -9,11 +9,13 @@ const text: { [key: string]: string } = {
     'Join our vibrant chess community and take part in exciting tournaments. Compete against fellow enthusiasts, showcase your skills, and experience the camaraderie of the chess community.',
 };
 
+const getImg = (img: string) => new URL('/img/icons/icon-' + img + '.svg', import.meta.url).href;
+
 export const CardComponent = (type: string): string => {
   return `
               <article class="card">
                 <figure class="card__imgContainer">
-                        <img class="card__img" src="../../public/img/icons/icon-${type}.svg" alt="icon-${type}">
+                        <img class="card__img" src="${getImg(type)}" alt="icon-${type}">
                 </figure>
                  <h3 class="card__title">${type}</h3>
                     <p class="card__para">${text[type]} </p>
