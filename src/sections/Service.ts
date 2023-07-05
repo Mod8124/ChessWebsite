@@ -20,9 +20,9 @@ export const ServiceSection = () => `
          <div class="services__services">
 
               <div class="services__cards">
-                ${CardComponent('peon')}
+                ${CardComponent('pawn')}
                 ${CardComponent('king')}
-                ${CardComponent('tower')}
+                ${CardComponent('rook')}
                 ${CardComponent('knight')}
                 ${CardComponent('bishop')}
               </div>
