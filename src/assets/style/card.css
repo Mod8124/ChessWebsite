@@ -1,0 +1,23 @@
+.card {
+  text-align: center;
+  max-width: 500px;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+.card__title {
+  text-transform: uppercase;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 1.6em;
+  color: var(--Pink);
+}
+
+.card__para {
+  font-size: 1.2em;
+  padding-bottom: 30px;
+}
+
+.card .btn:hover {
+  background-color: white;
+}

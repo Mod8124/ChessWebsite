@@ -1,0 +1,74 @@
+@import '/node_modules/normalize.css/normalize.css';
+@import url('./style/section.css');
+@import url('./style/title.css');
+@import url('./style/nav.css');
+@import url('./style/hero.css');
+@import url('./style/about.css');
+@import url('./style/aboutTwo.css');
+@import url('./style/services.css');
+@import url('./style/card.css');
+@import url('./style/testimonial.css');
+@import url('./style/formulary.css');
+@import url('./style/footer.css');
+
+* {
+  font-family: 'Times New Roman', Times, serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --background: black;
+  --Pink: #bd0052;
+}
+
+html,
+body {
+  overflow-x: hidden;
+}
+
+body::-webkit-scrollbar {
+  width: 15px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: var(--Pink);
+  border-radius: 10px;
+  border: 3px solid black;
+}
+
+body::-webkit-scrollbar-track {
+  background-color: black;
+}
+
+.square__container {
+  background-color: white;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  pointer-events: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10000;
+}
+
+.square {
+  width: 12.5%;
+  height: 12.5%;
+  background-color: black;
+  box-sizing: border-box;
+}
+
+.square--white {
+  background-color: white;
+}
+
+@media screen and (min-width: 1024px) {
+  html,
+  body {
+    overflow-x: visible;
+  }
+}

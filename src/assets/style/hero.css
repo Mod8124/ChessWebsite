@@ -1,0 +1,104 @@
+.cta {
+  height: 60%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cta__container {
+  width: 90%;
+  max-width: 500px;
+  text-align: center;
+}
+
+.cta__title {
+  font-size: 4em;
+  margin: 0;
+  color: white;
+  opacity: 0;
+}
+
+.cta__line {
+  height: 5px;
+  width: 50%;
+  margin: 0 auto;
+  background-color: white;
+  opacity: 0;
+}
+
+.cta__para {
+  color: white;
+  font-size: 1.6em;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  opacity: 0;
+}
+
+.btn {
+  background-color: var(--Pink);
+  border: none;
+  padding: 10px 30px;
+  color: white;
+  font-size: 1.2em;
+  border: 2px solid transparent;
+}
+
+.btn:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: var(--Pink);
+  border: 2px solid var(--Pink);
+}
+
+.cta__container .btn {
+  opacity: 0;
+}
+
+.red {
+  height: 26%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.red__container {
+  width: auto;
+  display: flex;
+  height: auto;
+  flex-direction: column;
+  align-items: center;
+  padding-right: 2%;
+  row-gap: 1em;
+  opacity: 0;
+}
+
+.red__social svg {
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+}
+
+.red__social--facebook svg:hover {
+  stroke: var(--Pink);
+}
+
+.red__social__instagram svg:hover {
+  fill: var(--Pink);
+}
+
+@media screen and (min-width: 1024px) {
+  .cta__title {
+    font-size: 7em;
+  }
+
+  .cta__line {
+    width: 54%;
+  }
+
+  .cta__para {
+    font-size: 2em;
+  }
+
+  .btn {
+    font-size: 1.8em;
+  }
+}
